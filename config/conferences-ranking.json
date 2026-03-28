@@ -10,7 +10,8 @@
       "EUROCRYPT",
       "NDSS",
       "PODC",
-      "TCC"
+      "TCC",
+      "MOBICOM"
     ],
     "A": [
       "ACSAC",
@@ -26,7 +27,9 @@
       "ACNS",
       "SCN",
       "CANS",
-      "WPES"
+      "WPES",
+      "DS-RT",
+      "SECRYPT"
     ]
   },
   "notes": "This file should be updated periodically from official CORE ranking or equivalent source"
