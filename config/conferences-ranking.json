@@ -11,7 +11,9 @@
       "NDSS",
       "PODC",
       "TCC",
-      "MOBICOM"
+      "MOBICOM",
+      "CHES",
+      "ASIA CCS"
     ],
     "A": [
       "ACSAC",
@@ -21,7 +23,21 @@
       "PKC",
       "RAID",
       "FC",
-      "CSF"
+      "CSF",
+      "SOUPS",
+      "PETS",
+      "DIMVA",
+      "ACISP",
+      "ISC",
+      "AsiaCCS",
+      "WiSec",
+      "ACNS",
+      "SACMAT",
+      "CNS",
+      "SecureComm",
+      "TrustCom",
+      "ICICS",
+      "ProvSec"
     ],
     "B": [
       "ACNS",
