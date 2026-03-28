@@ -1,0 +1,46 @@
+{
+  "description": "Topic taxonomy for tagging and filtering",
+  "areas": {
+    "MPC": {
+      "name": "Multi-Party Computation",
+      "keywords": [
+        "multi-party computation",
+        "MPC",
+        "secure computation",
+        "secret sharing",
+        "threshold cryptography",
+        "garbled circuits",
+        "oblivious transfer",
+        "SMPC",
+        "secure multiparty computation"
+      ]
+    },
+    "SEC": {
+      "name": "Security",
+      "keywords": [
+        "security",
+        "cryptography",
+        "privacy",
+        "encryption",
+        "authentication",
+        "access control",
+        "network security",
+        "applied cryptography",
+        "cybersecurity",
+        "information security"
+      ]
+    }
+  },
+  "specific_topics": [
+    "zero-knowledge proofs",
+    "homomorphic encryption",
+    "differential privacy",
+    "blockchain security",
+    "post-quantum cryptography",
+    "hardware security",
+    "side-channel attacks",
+    "formal verification",
+    "secure protocols",
+    "privacy-preserving computation"
+  ]
+}

@@ -1,0 +1,189 @@
+[
+  {
+    "id": "ccs-2026",
+    "title": "ACM CCS 2026 - ACM Conference on Computer and Communications Security",
+    "venue_type": "conference",
+    "rank": "A*",
+    "area": [
+      "SEC",
+      "MPC"
+    ],
+    "topics": [
+      "cryptography",
+      "secure computation",
+      "privacy",
+      "applied cryptography"
+    ],
+    "deadline": "2026-05-15",
+    "status": "open",
+    "official_url": "https://www.sigsac.org/ccs/CCS2026/",
+    "source_url": "https://www.sigsac.org/ccs/CCS2026/",
+    "last_checked": "2026-03-28",
+    "notes": "Premier security conference with strong cryptography track",
+    "priority_score": 160,
+    "days_until_deadline": 48
+  },
+  {
+    "id": "tcc-2026",
+    "title": "TCC 2026 - Theory of Cryptography Conference",
+    "venue_type": "conference",
+    "rank": "A*",
+    "area": [
+      "MPC",
+      "SEC"
+    ],
+    "topics": [
+      "multi-party computation",
+      "theoretical cryptography",
+      "secure computation foundations"
+    ],
+    "deadline": "2026-05-30",
+    "status": "open",
+    "official_url": "https://tcc.iacr.org/2026/",
+    "source_url": "https://tcc.iacr.org/2026/",
+    "last_checked": "2026-03-28",
+    "notes": "Premier theory conference for cryptography and MPC",
+    "priority_score": 160,
+    "days_until_deadline": 63
+  },
+  {
+    "id": "crypto-2026",
+    "title": "CRYPTO 2026 - International Cryptology Conference",
+    "venue_type": "conference",
+    "rank": "A*",
+    "area": [
+      "MPC",
+      "SEC"
+    ],
+    "topics": [
+      "multi-party computation",
+      "zero-knowledge proofs",
+      "homomorphic encryption",
+      "cryptographic protocols"
+    ],
+    "deadline": "2026-02-15",
+    "status": "closed",
+    "official_url": "https://crypto.iacr.org/2026/",
+    "source_url": "https://crypto.iacr.org/2026/",
+    "last_checked": "2026-03-28",
+    "notes": "Leading venue for theoretical cryptography and MPC research",
+    "priority_score": 150,
+    "days_until_deadline": -41
+  },
+  {
+    "id": "eurocrypt-2026",
+    "title": "EUROCRYPT 2026 - International Conference on the Theory and Applications of Cryptographic Techniques",
+    "venue_type": "conference",
+    "rank": "A*",
+    "area": [
+      "MPC",
+      "SEC"
+    ],
+    "topics": [
+      "secure computation",
+      "cryptographic protocols",
+      "privacy-preserving computation"
+    ],
+    "deadline": "2026-10-15",
+    "status": "upcoming",
+    "official_url": "https://eurocrypt.iacr.org/2026/",
+    "source_url": "https://eurocrypt.iacr.org/2026/",
+    "last_checked": "2026-03-28",
+    "notes": "Top European cryptography conference",
+    "priority_score": 140,
+    "days_until_deadline": 201
+  },
+  {
+    "id": "sp-2026",
+    "title": "IEEE S&P 2026 - IEEE Symposium on Security and Privacy",
+    "venue_type": "conference",
+    "rank": "A*",
+    "area": [
+      "SEC",
+      "MPC"
+    ],
+    "topics": [
+      "privacy",
+      "security",
+      "secure protocols",
+      "cryptography"
+    ],
+    "deadline": "2026-06-01",
+    "status": "open",
+    "official_url": "https://www.ieee-security.org/TC/SP2026/",
+    "source_url": "https://www.ieee-security.org/TC/SP2026/",
+    "last_checked": "2026-03-28",
+    "notes": "Oakland conference - top venue for security and privacy",
+    "priority_score": 140,
+    "days_until_deadline": 65
+  },
+  {
+    "id": "joc-si-mpc-2026",
+    "title": "Journal of Cryptology - Special Issue on Advances in MPC",
+    "venue_type": "journal",
+    "rank": "Q1",
+    "area": [
+      "MPC"
+    ],
+    "topics": [
+      "multi-party computation",
+      "secure computation",
+      "threshold cryptography"
+    ],
+    "deadline": "2026-07-31",
+    "status": "open",
+    "official_url": "https://www.springer.com/journal/145",
+    "source_url": "https://www.springer.com/journal/145",
+    "last_checked": "2026-03-28",
+    "notes": "Top cryptography journal with special focus on MPC",
+    "priority_score": 135,
+    "days_until_deadline": 125
+  },
+  {
+    "id": "tdsc-2026",
+    "title": "IEEE TDSC - Transactions on Dependable and Secure Computing",
+    "venue_type": "journal",
+    "rank": "Q1",
+    "area": [
+      "SEC",
+      "MPC"
+    ],
+    "topics": [
+      "secure computation",
+      "privacy",
+      "cryptographic protocols",
+      "security"
+    ],
+    "deadline": "2026-12-31",
+    "status": "open",
+    "official_url": "https://www.computer.org/csdl/journal/tq",
+    "source_url": "https://www.computer.org/csdl/journal/tq",
+    "last_checked": "2026-03-28",
+    "notes": "Rolling submissions accepted throughout the year",
+    "priority_score": 130,
+    "days_until_deadline": 278
+  },
+  {
+    "id": "fc-2026",
+    "title": "FC 2026 - Financial Cryptography and Data Security",
+    "venue_type": "conference",
+    "rank": "A",
+    "area": [
+      "SEC",
+      "MPC"
+    ],
+    "topics": [
+      "applied cryptography",
+      "blockchain security",
+      "privacy-preserving computation"
+    ],
+    "deadline": "2026-09-15",
+    "status": "upcoming",
+    "official_url": "https://fc26.ifca.ai/",
+    "source_url": "https://fc26.ifca.ai/",
+    "last_checked": "2026-03-28",
+    "notes": "Strong focus on applied cryptography and MPC applications",
+    "priority_score": 120,
+    "days_until_deadline": 171
+  }
+]

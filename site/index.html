@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CFP & Journal Call Tracker - MPC & Security</title>
+    <meta name="description" content="Track call for papers and journal calls in Multi-Party Computation and Security research areas">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>📚 CFP & Journal Call Tracker</h1>
+            <p class="subtitle">Multi-Party Computation & Security Research</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- Search and Filters -->
+        <section class="search-filters">
+            <div class="search-box">
+                <input type="text" id="search" placeholder="Search by title, topic, or venue..." aria-label="Search calls">
+            </div>
+
+            <div class="filters">
+                <div class="filter-group">
+                    <label for="filter-area">Area:</label>
+                    <select id="filter-area">
+                        <option value="">All Areas</option>
+                        <option value="MPC">MPC</option>
+                        <option value="SEC">Security</option>
+                    </select>
+                </div>
+
+                <div class="filter-group">
+                    <label for="filter-venue">Venue Type:</label>
+                    <select id="filter-venue">
+                        <option value="">All Types</option>
+                        <option value="conference">Conferences</option>
+                        <option value="journal">Journals</option>
+                    </select>
+                </div>
+
+                <div class="filter-group">
+                    <label for="filter-rank">Ranking:</label>
+                    <select id="filter-rank">
+                        <option value="">All Rankings</option>
+                        <option value="A*">A* Conferences</option>
+                        <option value="A">A Conferences</option>
+                        <option value="Q1">Q1 Journals</option>
+                        <option value="Q2">Q2 Journals</option>
+                    </select>
+                </div>
+
+                <div class="filter-group">
+                    <label for="filter-status">Status:</label>
+                    <select id="filter-status">
+                        <option value="">All Status</option>
+                        <option value="open">Open</option>
+                        <option value="upcoming">Upcoming</option>
+                        <option value="closed">Closed</option>
+                    </select>
+                </div>
+
+                <div class="filter-group">
+                    <label>
+                        <input type="checkbox" id="filter-urgent">
+                        Urgent (< 30 days)
+                    </label>
+                </div>
+            </div>
+        </section>
+
+        <!-- Statistics -->
+        <section id="stats" class="stats"></section>
+
+        <!-- Results -->
+        <section id="results" class="results">
+            <div class="loading">Loading calls...</div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Last updated: <span id="last-update">-</span></p>
+            <p>
+                <a href="https://github.com/ilsamaritano/CFP" target="_blank" rel="noopener">View on GitHub</a>
+                | Data sources: CORE Rankings, SJR, Official conference/journal websites
+            </p>
+        </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
