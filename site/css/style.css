@@ -111,6 +111,14 @@ main {
     cursor: pointer;
 }
 
+.filter-group input[type="text"] {
+    padding: 0.5rem 0.75rem;
+    border: 1px solid var(--gray-300);
+    border-radius: var(--border-radius);
+    font-size: 0.875rem;
+    min-width: 180px;
+}
+
 .filter-group input[type="checkbox"] {
     cursor: pointer;
     width: 1rem;
@@ -311,6 +319,42 @@ main {
     color: var(--gray-700);
 }
 
+.call-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    align-items: center;
+    margin-bottom: 0.75rem;
+}
+
+.action-button {
+    border: 1px solid var(--gray-300);
+    background: white;
+    padding: 0.5rem 0.75rem;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 0.85rem;
+    transition: background 0.2s, border-color 0.2s, color 0.2s;
+}
+
+.action-button:hover {
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+}
+
+.action-button.secondary {
+    background: var(--gray-100);
+}
+
+.compare-toggle {
+    display: flex;
+    align-items: center;
+    gap: 0.35rem;
+    font-weight: 600;
+    color: var(--gray-700);
+}
+
 .call-notes {
     color: var(--gray-600);
     font-size: 0.875rem;
@@ -342,6 +386,55 @@ main {
     padding: 3rem;
     color: var(--gray-600);
     font-size: 1.125rem;
+}
+
+.compare-panel {
+    background: white;
+    padding: 1rem 1.25rem;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow);
+    margin-bottom: 1.5rem;
+}
+
+.compare-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 0.75rem;
+}
+
+.compare-subtitle {
+    color: var(--gray-600);
+    font-size: 0.9rem;
+}
+
+.compare-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 0.75rem;
+}
+
+.compare-card {
+    border: 1px solid var(--gray-200);
+    border-radius: var(--border-radius);
+    padding: 0.75rem;
+    background: var(--gray-100);
+}
+
+.compare-title {
+    font-weight: 700;
+    margin-bottom: 0.35rem;
+}
+
+.compare-line {
+    font-size: 0.9rem;
+    color: var(--gray-700);
+    margin-bottom: 0.2rem;
+}
+
+.hidden {
+    display: none;
 }
 
 /* Footer */
@@ -393,5 +486,10 @@ footer a:hover {
 
     .badges {
         width: 100%;
+    }
+
+    .compare-header {
+        flex-direction: column;
+        align-items: flex-start;
     }
 }

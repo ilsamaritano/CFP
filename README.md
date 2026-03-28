@@ -57,6 +57,8 @@ Each call/journal entry contains:
   "topics": ["list", "of", "specific", "topics"],
   "deadline": "YYYY-MM-DD",
   "status": "open | closed | upcoming",
+  "location": "City, Country | Online",
+  "acceptance_rate": 23.5,
   "official_url": "https://official-site.com",
   "source_url": "https://source-where-found.com",
   "last_checked": "YYYY-MM-DD",

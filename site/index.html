@@ -35,9 +35,9 @@
                 <div class="filter-group">
                     <label for="filter-venue">Venue Type:</label>
                     <select id="filter-venue">
-                        <option value="">All Types</option>
                         <option value="conference">Conferences</option>
                         <option value="journal">Journals</option>
+                        <option value="">All Types</option>
                     </select>
                 </div>
 
@@ -55,10 +55,25 @@
                 <div class="filter-group">
                     <label for="filter-status">Status:</label>
                     <select id="filter-status">
-                        <option value="">All Status</option>
                         <option value="open">Open</option>
                         <option value="upcoming">Upcoming</option>
                         <option value="closed">Closed</option>
+                        <option value="">All Status</option>
+                    </select>
+                </div>
+
+                <div class="filter-group">
+                    <label for="filter-location">Location:</label>
+                    <input type="text" id="filter-location" placeholder="Search location...">
+                </div>
+
+                <div class="filter-group">
+                    <label for="filter-acceptance">Acceptance rate:</label>
+                    <select id="filter-acceptance">
+                        <option value="">All</option>
+                        <option value="lt20">&lt; 20%</option>
+                        <option value="20to30">20-30%</option>
+                        <option value="gt30">&gt; 30%</option>
                     </select>
                 </div>
 
@@ -73,6 +88,9 @@
 
         <!-- Statistics -->
         <section id="stats" class="stats"></section>
+
+        <!-- Compare -->
+        <section id="compare-panel" class="compare-panel hidden"></section>
 
         <!-- Results -->
         <section id="results" class="results">
