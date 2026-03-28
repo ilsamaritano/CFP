@@ -3,12 +3,15 @@ class CFPTracker {
     constructor() {
         this.allCalls = [];
         this.filteredCalls = [];
+        this.compareSelection = new Set();
         this.filters = {
             search: '',
             area: '',
-            venue: '',
+            venue: 'conference',
             rank: '',
-            status: '',
+            status: 'open',
+            location: '',
+            acceptance: '',
             urgent: false
         };
         this.init();
@@ -18,6 +21,7 @@ class CFPTracker {
         try {
             await this.loadData();
             this.setupEventListeners();
+            this.syncFilterUI();
             this.applyFilters();
             this.renderStats();
             this.updateLastUpdate();
@@ -63,6 +67,16 @@ class CFPTracker {
             this.applyFilters();
         });
 
+        document.getElementById('filter-location').addEventListener('input', (e) => {
+            this.filters.location = e.target.value.toLowerCase();
+            this.applyFilters();
+        });
+
+        document.getElementById('filter-acceptance').addEventListener('change', (e) => {
+            this.filters.acceptance = e.target.value;
+            this.applyFilters();
+        });
+
         // Urgent checkbox
         document.getElementById('filter-urgent').addEventListener('change', (e) => {
             this.filters.urgent = e.target.checked;
@@ -70,11 +84,19 @@ class CFPTracker {
         });
     }
 
+    syncFilterUI() {
+        document.getElementById('filter-venue').value = this.filters.venue;
+        document.getElementById('filter-status').value = this.filters.status;
+        document.getElementById('filter-location').value = this.filters.location;
+        document.getElementById('filter-acceptance').value = this.filters.acceptance;
+        document.getElementById('filter-urgent').checked = this.filters.urgent;
+    }
+
     applyFilters() {
         this.filteredCalls = this.allCalls.filter(call => {
             // Search filter
             if (this.filters.search) {
-                const searchText = `${call.title} ${call.topics.join(' ')} ${call.notes || ''}`.toLowerCase();
+                const searchText = `${call.title} ${call.topics.join(' ')} ${call.notes || ''} ${call.location || ''}`.toLowerCase();
                 if (!searchText.includes(this.filters.search)) {
                     return false;
                 }
@@ -108,10 +130,44 @@ class CFPTracker {
                 }
             }
 
+            // Location filter
+            if (this.filters.location) {
+                const location = (call.location || '').toLowerCase();
+                if (!location.includes(this.filters.location)) {
+                    return false;
+                }
+            }
+
+            // Acceptance rate filter
+            if (this.filters.acceptance && !this.matchesAcceptanceRate(call.acceptance_rate, this.filters.acceptance)) {
+                return false;
+            }
+
             return true;
         });
 
         this.render();
+        this.renderComparePanel();
+    }
+
+    matchesAcceptanceRate(rate, filter) {
+        if (rate === null || rate === undefined) {
+            return false;
+        }
+
+        if (filter === 'lt20') {
+            return rate < 20;
+        }
+
+        if (filter === '20to30') {
+            return rate >= 20 && rate <= 30;
+        }
+
+        if (filter === 'gt30') {
+            return rate > 30;
+        }
+
+        return true;
     }
 
     render() {
@@ -123,6 +179,61 @@ class CFPTracker {
         }
 
         resultsContainer.innerHTML = this.filteredCalls.map(call => this.renderCallCard(call)).join('');
+        this.attachCardHandlers();
+    }
+
+    attachCardHandlers() {
+        const resultsContainer = document.getElementById('results');
+
+        resultsContainer.querySelectorAll('[data-action="calendar"]').forEach(button => {
+            button.addEventListener('click', () => {
+                const call = this.findCallById(button.dataset.id);
+                if (call) {
+                    this.downloadCalendar(call);
+                }
+            });
+        });
+
+        resultsContainer.querySelectorAll('[data-action="citation"]').forEach(button => {
+            button.addEventListener('click', async () => {
+                const call = this.findCallById(button.dataset.id);
+                if (!call) {
+                    return;
+                }
+                const citation = this.getCitationText(call);
+
+                try {
+                    if (navigator.clipboard && navigator.clipboard.writeText) {
+                        await navigator.clipboard.writeText(citation);
+                    } else {
+                        const textarea = document.createElement('textarea');
+                        textarea.value = citation;
+                        document.body.appendChild(textarea);
+                        textarea.select();
+                        document.execCommand('copy');
+                        textarea.remove();
+                    }
+                    const original = button.textContent;
+                    button.textContent = 'Copied!';
+                    setTimeout(() => {
+                        button.textContent = original;
+                    }, 1500);
+                } catch (err) {
+                    console.error('Failed to copy citation', err);
+                }
+            });
+        });
+
+        resultsContainer.querySelectorAll('input[data-action="compare"]').forEach(input => {
+            input.addEventListener('change', (e) => {
+                if (e.target.checked) {
+                    this.compareSelection.add(e.target.dataset.id);
+                } else {
+                    this.compareSelection.delete(e.target.dataset.id);
+                }
+                this.renderComparePanel();
+            });
+        });
     }
 
     renderCallCard(call) {
@@ -160,12 +271,27 @@ class CFPTracker {
                         <strong>Areas:</strong> ${areasText}
                     </div>
                     <div class="call-meta-item">
+                        <strong>Location:</strong> ${this.escapeHtml(call.location)}
+                    </div>
+                    <div class="call-meta-item">
+                        <strong>Acceptance:</strong> ${this.formatAcceptanceRate(call)}
+                    </div>
+                    <div class="call-meta-item">
                         <span class="priority-score">Priority: ${call.priority_score}</span>
                     </div>
                 </div>
 
                 <div class="call-topics">
                     ${topicsHtml}
+                </div>
+
+                <div class="call-actions">
+                    <button class="action-button" data-action="calendar" data-id="${call.id}">Export to calendar</button>
+                    <button class="action-button secondary" data-action="citation" data-id="${call.id}">Copy citation</button>
+                    <label class="compare-toggle">
+                        <input type="checkbox" data-action="compare" data-id="${call.id}" ${this.compareSelection.has(call.id) ? 'checked' : ''}>
+                        Compare
+                    </label>
                 </div>
 
                 ${call.notes ? `<div class="call-notes">${this.escapeHtml(call.notes)}</div>` : ''}
@@ -180,6 +306,55 @@ class CFPTracker {
                 </div>
             </div>
         `;
+    }
+
+    findCallById(id) {
+        return this.allCalls.find(c => c.id === id);
+    }
+
+    downloadCalendar(call) {
+        const deadline = new Date(call.deadline);
+        if (Number.isNaN(deadline.getTime())) {
+            return;
+        }
+
+        const dateStr = this.formatDateForICS(deadline);
+        const summary = `${call.title} (${call.rank} ${call.venue_type})`;
+        const description = `Official URL: ${call.official_url}\\nSource: ${call.source_url}`;
+        const icsContent = [
+            'BEGIN:VCALENDAR',
+            'VERSION:2.0',
+            'PRODID:-//CFP Tracker//EN',
+            'BEGIN:VEVENT',
+            `UID:${call.id}@cfp-tracker`,
+            `SUMMARY:${summary}`,
+            `DTSTART;VALUE=DATE:${dateStr}`,
+            `DTEND;VALUE=DATE:${dateStr}`,
+            `DESCRIPTION:${description}`,
+            `URL:${call.official_url}`,
+            'END:VEVENT',
+            'END:VCALENDAR'
+        ].join('\\n');
+
+        const blob = new Blob([icsContent], { type: 'text/calendar' });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = `${call.id}.ics`;
+        a.click();
+        URL.revokeObjectURL(url);
+    }
+
+    formatDateForICS(date) {
+        const year = date.getFullYear();
+        const month = String(date.getMonth() + 1).padStart(2, '0');
+        const day = String(date.getDate()).padStart(2, '0');
+        return `${year}${month}${day}`;
+    }
+
+    getCitationText(call) {
+        const location = call.location ? `, ${call.location}` : '';
+        return `${call.title}. ${call.venue_type} (${call.rank})${location}. Deadline: ${call.deadline}. Acceptance rate: ${this.formatAcceptanceRate(call)}. Last checked: ${call.last_checked}.`;
     }
 
     formatDeadline(call) {
@@ -207,6 +382,58 @@ class CFPTracker {
         }
 
         return `${dateStr} (in ${call.days_until_deadline} days)`;
+    }
+
+    formatAcceptanceRate(call) {
+        if (call.acceptance_rate === null || call.acceptance_rate === undefined) {
+            return 'N/A';
+        }
+        return `${call.acceptance_rate}%`;
+    }
+
+    renderComparePanel() {
+        const panel = document.getElementById('compare-panel');
+        if (!panel) {
+            return;
+        }
+
+        if (this.compareSelection.size === 0) {
+            panel.classList.add('hidden');
+            panel.innerHTML = '';
+            return;
+        }
+
+        const selectedCalls = this.allCalls.filter(call => this.compareSelection.has(call.id));
+        panel.classList.remove('hidden');
+
+        panel.innerHTML = `
+            <div class="compare-header">
+                <div>
+                    <strong>Comparing ${selectedCalls.length} venues</strong>
+                    <p class="compare-subtitle">Quickly scan ranks, locations, deadlines, and acceptance rates.</p>
+                </div>
+                <button class="action-button secondary" id="clear-compare">Clear</button>
+            </div>
+            <div class="compare-grid">
+                ${selectedCalls.map(call => `
+                    <div class="compare-card">
+                        <div class="compare-title">${this.escapeHtml(call.title)}</div>
+                        <div class="compare-line"><strong>Rank:</strong> ${this.escapeHtml(call.rank)} • ${this.escapeHtml(call.venue_type)}</div>
+                        <div class="compare-line"><strong>Location:</strong> ${this.escapeHtml(call.location)}</div>
+                        <div class="compare-line"><strong>Acceptance:</strong> ${this.formatAcceptanceRate(call)}</div>
+                        <div class="compare-line"><strong>Deadline:</strong> ${this.formatDeadline(call)}</div>
+                    </div>
+                `).join('')}
+            </div>
+        `;
+
+        const clearBtn = panel.querySelector('#clear-compare');
+        if (clearBtn) {
+            clearBtn.addEventListener('click', () => {
+                this.compareSelection.clear();
+                this.applyFilters();
+            });
+        }
     }
 
     renderStats() {

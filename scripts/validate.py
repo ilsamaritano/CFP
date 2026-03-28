@@ -49,6 +49,20 @@ def validate_record(record, schema, index):
     if 'status' in record and record['status'] not in ['open', 'closed', 'upcoming']:
         errors.append(f"Record {index}: Invalid status '{record['status']}'")
 
+    # Validate location
+    if 'location' in record:
+        if not isinstance(record['location'], str) or not record['location'].strip():
+            errors.append(f"Record {index}: 'location' must be a non-empty string")
+
+    # Validate acceptance rate
+    if 'acceptance_rate' in record:
+        rate = record['acceptance_rate']
+        if rate is not None:
+            if not isinstance(rate, (int, float)):
+                errors.append(f"Record {index}: 'acceptance_rate' must be a number or null")
+            elif rate < 0 or rate > 100:
+                errors.append(f"Record {index}: 'acceptance_rate' must be between 0 and 100")
+
     # Validate date formats
     for date_field in ['deadline', 'last_checked']:
         if date_field in record:
