@@ -110,5 +110,47 @@
     "source_url": "https://fc26.ifca.ai/",
     "last_checked": "2026-03-28",
     "notes": "Strong focus on applied cryptography and MPC applications"
+  },
+  {
+    "id": "dsrt-2026",
+    "title": "DS-RT 2026 - IEEE/ACM International Symposium on Distributed Simulation and Real Time Applications",
+    "venue_type": "conference",
+    "rank": "B",
+    "area": ["SEC"],
+    "topics": ["distributed systems", "security", "real-time systems"],
+    "deadline": "2026-07-15",
+    "status": "open",
+    "official_url": "https://ds-rt.com/2026/",
+    "source_url": "https://ds-rt.com/2026/",
+    "last_checked": "2026-03-28",
+    "notes": "Focus on distributed simulation and real-time applications with security aspects"
+  },
+  {
+    "id": "mobicom-2026",
+    "title": "MobiCom 2026 - ACM International Conference on Mobile Computing and Networking",
+    "venue_type": "conference",
+    "rank": "A*",
+    "area": ["SEC"],
+    "topics": ["mobile security", "network security", "privacy", "wireless security"],
+    "deadline": "2026-08-15",
+    "status": "upcoming",
+    "official_url": "https://www.sigmobile.org/mobicom/2026/",
+    "source_url": "https://www.sigmobile.org/mobicom/2026/",
+    "last_checked": "2026-03-28",
+    "notes": "Premier mobile computing and networking conference with strong security track"
+  },
+  {
+    "id": "secrypt-2026",
+    "title": "SECRYPT 2026 - International Conference on Security and Cryptography",
+    "venue_type": "conference",
+    "rank": "B",
+    "area": ["SEC", "MPC"],
+    "topics": ["cryptography", "security", "network security", "applied cryptography"],
+    "deadline": "2026-04-20",
+    "status": "open",
+    "official_url": "https://secrypt.scitevents.org/",
+    "source_url": "https://secrypt.scitevents.org/",
+    "last_checked": "2026-03-28",
+    "notes": "International conference focusing on security and cryptography research"
   }
 ]
