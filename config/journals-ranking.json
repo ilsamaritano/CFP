@@ -1,0 +1,21 @@
+{
+  "description": "Journal rankings based on SJR/Impact Factor quartiles",
+  "last_updated": "2026-03-28",
+  "rankings": {
+    "Q1": [
+      "IEEE Transactions on Information Forensics and Security",
+      "IEEE Transactions on Dependable and Secure Computing",
+      "Journal of Cryptology",
+      "Designs, Codes and Cryptography",
+      "Computers & Security",
+      "IEEE Security & Privacy",
+      "ACM Transactions on Privacy and Security"
+    ],
+    "Q2": [
+      "Journal of Computer Security",
+      "International Journal of Information Security",
+      "Computer & Network Security"
+    ]
+  },
+  "notes": "This file should be updated periodically from SJR or Scopus quartile data"
+}

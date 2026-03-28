@@ -1,0 +1,44 @@
+name: Manual Data Update
+
+on:
+  workflow_dispatch:
+    inputs:
+      update_rankings:
+        description: 'Update ranking configurations'
+        type: boolean
+        default: false
+
+jobs:
+  manual-update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Validate data
+        run: |
+          echo "Validating data..."
+          python3 scripts/validate.py
+
+      - name: Update rankings (if requested)
+        if: github.event.inputs.update_rankings == 'true'
+        run: |
+          echo "Ranking update requested. Please update config files manually."
+          echo "See config/conferences-ranking.json and config/journals-ranking.json"
+
+      - name: Generate site data
+        run: |
+          echo "Generating site data..."
+          python3 scripts/generate.py
+
+      - name: Summary
+        run: |
+          echo "✓ Data validation complete"
+          echo "✓ Site data generated"
+          echo ""
+          echo "Review the changes and commit them manually if needed."

@@ -1,0 +1,33 @@
+{
+  "description": "Conference rankings based on CORE ranking (https://www.core.edu.au/conference-portal)",
+  "last_updated": "2026-03-28",
+  "rankings": {
+    "A_STAR": [
+      "CCS",
+      "S&P",
+      "USENIX Security",
+      "CRYPTO",
+      "EUROCRYPT",
+      "NDSS",
+      "PODC",
+      "TCC"
+    ],
+    "A": [
+      "ACSAC",
+      "ASIACRYPT",
+      "CT-RSA",
+      "ESORICS",
+      "PKC",
+      "RAID",
+      "FC",
+      "CSF"
+    ],
+    "B": [
+      "ACNS",
+      "SCN",
+      "CANS",
+      "WPES"
+    ]
+  },
+  "notes": "This file should be updated periodically from official CORE ranking or equivalent source"
+}
