@@ -1,0 +1,73 @@
+name: PR Data Update
+
+on:
+  pull_request:
+    branches: [ main ]
+    paths:
+      - 'data/calls.json'
+      - 'config/**.json'
+      - 'scripts/validate.py'
+      - 'scripts/generate.py'
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout PR branch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref }}
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Validate data
+        run: |
+          echo "Validating data..."
+          python3 scripts/validate.py
+
+      - name: Generate site data with priorities
+        run: |
+          echo "Generating site data..."
+          python3 scripts/generate.py
+
+      - name: Check for changes
+        id: check_changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          if [ -n "$(git status --porcelain)" ]; then
+            echo "changes=true" >> $GITHUB_OUTPUT
+            echo "Changes detected:"
+            git status --short
+          else
+            echo "changes=false" >> $GITHUB_OUTPUT
+            echo "No changes detected - site/data.json is already up to date"
+          fi
+
+      - name: Commit and push changes
+        if: steps.check_changes.outputs.changes == 'true'
+        run: |
+          git add data/calls.json site/data.json
+          git commit -m "Auto-update: Regenerate site/data.json [skip ci]"
+          git push
+
+      - name: Add comment to PR
+        if: steps.check_changes.outputs.changes == 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: '✅ Site data has been automatically regenerated and committed to this PR.'
+            })

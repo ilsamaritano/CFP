@@ -134,9 +134,12 @@ The site will be automatically deployed to `https://ilsamaritano.github.io/CFP/`
 
 1. Edit `data/calls.json`
 2. Add new entry following the schema
-3. Validate: `python3 scripts/validate.py`
-4. Generate site data: `python3 scripts/generate.py`
-5. Commit and push - deployment is automatic
+3. Create a pull request - **site data is auto-generated**
+4. The PR workflow will automatically:
+   - Validate your data
+   - Regenerate `site/data.json` with priority scores
+   - Commit the changes to your PR branch
+5. After PR is merged, the site is automatically deployed
 
 ### Updating Rankings
 
@@ -174,6 +177,16 @@ python3 scripts/validate.py
 
 ## Automated Updates
 
+The system features multiple levels of automation:
+
+### 1. Pull Request Automation
+When you create a PR that modifies `data/calls.json` or configuration files:
+- **Automatic validation** of all data entries
+- **Automatic regeneration** of `site/data.json` with priority scores
+- Changes are committed directly to your PR branch
+- No manual script execution needed
+
+### 2. Daily Automation
 The system runs daily at 00:00 UTC:
 
 1. Validates all data
@@ -182,6 +195,12 @@ The system runs daily at 00:00 UTC:
 4. Regenerates site data
 5. Commits changes (if any)
 6. Deploys to GitHub Pages
+
+### 3. Post-Merge Automation
+After a PR is merged to main:
+- The workflow validates and regenerates data
+- Deploys the updated site to GitHub Pages
+- No manual intervention required
 
 ## Data Sources
 
@@ -196,6 +215,8 @@ Always link to official CFP pages in `official_url` field.
 ## Development
 
 ### Local Testing
+
+**Note**: When working with PRs, you don't need to run these commands manually - the PR workflow handles them automatically. These are only needed for local development and testing.
 
 1. **Validate data**:
    ```bash

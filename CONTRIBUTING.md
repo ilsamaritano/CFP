@@ -32,12 +32,14 @@ Thank you for your interest in contributing to the CFP & Journal Call Tracker!
    }
    ```
 
-4. **Validate**:
-   ```bash
-   python3 scripts/validate.py
-   ```
-
-5. **Submit pull request** with description of what you added
+4. **Submit pull request**:
+   - Create a PR with your changes
+   - The PR workflow will automatically:
+     - Validate your data against the schema
+     - Regenerate `site/data.json` with priority scores
+     - Commit the changes to your PR branch
+   - **No manual script execution needed!**
+   - Review the automated changes and merge when ready
 
 ### Updating Rankings
 
