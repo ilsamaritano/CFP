@@ -1,0 +1,16 @@
+{
+  "name": "CFP Tracker",
+  "short_name": "CFP",
+  "description": "Track call for papers and journal calls in Multi-Party Computation and Security research areas",
+  "start_url": "/CFP/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2563eb",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
