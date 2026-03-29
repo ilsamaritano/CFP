@@ -1182,5 +1182,29 @@
     "notes": "IEEE journal for cloud computing and security research, rolling submissions",
     "location": "Online",
     "acceptance_rate": 25
+  },
+  {
+    "id": "milcom-2026",
+    "title": "MILCOM 2026 - IEEE Military Communications Conference",
+    "venue_type": "conference",
+    "rank": "B",
+    "area": [
+      "SEC"
+    ],
+    "topics": [
+      "military communications",
+      "tactical networks",
+      "communications security",
+      "network security",
+      "cybersecurity"
+    ],
+    "deadline": "2026-06-15",
+    "status": "upcoming",
+    "official_url": "https://milcom2026.org/",
+    "source_url": "https://milcom2026.org/",
+    "last_checked": "2026-03-29",
+    "notes": "IEEE conference on military communications and security",
+    "location": "Washington, DC, USA",
+    "acceptance_rate": 30
   }
 ]
