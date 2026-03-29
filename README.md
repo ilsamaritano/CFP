@@ -32,7 +32,8 @@ CFP/
 │   └── calls.json                   # Main dataset (source of truth)
 ├── scripts/
 │   ├── validate.py                  # Data validation script
-│   └── generate.py                  # Priority calculation and site data generation
+│   ├── generate.py                  # Priority calculation and site data generation
+│   └── watch.py                     # Auto-refresh file watcher for local development
 ├── site/
 │   ├── index.html                   # Main HTML page
 │   ├── css/
@@ -237,6 +238,23 @@ Always link to official CFP pages in `official_url` field.
    ```
 
 4. Open http://localhost:8000 in browser
+
+### Auto-Refresh During Development
+
+For automatic refresh while editing data locally, use the file watcher:
+
+```bash
+python3 scripts/watch.py
+```
+
+This will:
+- Watch `data/calls.json` and config files for changes
+- Automatically run validation and regeneration when files are modified
+- Show real-time feedback on validation and generation status
+
+Press `Ctrl+C` to stop the watcher.
+
+**Tip**: Run the watcher in one terminal and the local server in another for seamless development.
 
 ### Adding New Features
 
