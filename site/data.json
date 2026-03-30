@@ -715,6 +715,58 @@
     "days_until_deadline": 46
   },
   {
+    "id": "iros-2026",
+    "title": "IROS 2026 - IEEE/RSJ International Conference on Intelligent Robots and Systems",
+    "venue_type": "conference",
+    "rank": "A*",
+    "area": [
+      "SEC"
+    ],
+    "topics": [
+      "robot security",
+      "cyber-physical security",
+      "autonomous systems security",
+      "IoT security",
+      "embedded systems security"
+    ],
+    "deadline": "2026-03-15",
+    "status": "closed",
+    "official_url": "https://www.iros.org/",
+    "source_url": "https://www.iros.org/",
+    "last_checked": "2026-03-30",
+    "notes": "Premier robotics conference with growing security track. Ranking disputed - classified as A* for security research but primarily known for robotics",
+    "location": "Abu Dhabi, UAE",
+    "acceptance_rate": 45,
+    "priority_score": 115,
+    "days_until_deadline": -15
+  },
+  {
+    "id": "icra-2026",
+    "title": "ICRA 2026 - IEEE International Conference on Robotics and Automation",
+    "venue_type": "conference",
+    "rank": "A*",
+    "area": [
+      "SEC"
+    ],
+    "topics": [
+      "robot security",
+      "cyber-physical systems",
+      "autonomous systems security",
+      "embedded security",
+      "IoT security"
+    ],
+    "deadline": "2025-09-15",
+    "status": "closed",
+    "official_url": "https://2026.ieee-icra.org/",
+    "source_url": "https://2026.ieee-icra.org/",
+    "last_checked": "2026-03-30",
+    "notes": "Flagship IEEE robotics and automation conference with emerging security research focus",
+    "location": "Philadelphia, PA, USA",
+    "acceptance_rate": 42,
+    "priority_score": 115,
+    "days_until_deadline": -196
+  },
+  {
     "id": "pkc-2027",
     "title": "PKC 2027 - International Conference on Practice and Theory of Public-Key Cryptography",
     "venue_type": "conference",
