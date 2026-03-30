@@ -20,7 +20,7 @@
     "source_url": "https://www.sigsac.org/ccs/CCS2026/",
     "last_checked": "2026-03-29",
     "notes": "Premier security conference with strong cryptography track",
-    "location": "TBD",
+    "location": "Copenhagen, Denmark",
     "acceptance_rate": 15,
     "priority_score": 160,
     "days_until_deadline": 46
@@ -45,7 +45,7 @@
     "source_url": "https://tcc.iacr.org/2026/",
     "last_checked": "2026-03-29",
     "notes": "Premier theory conference for cryptography and MPC",
-    "location": "TBD",
+    "location": "Milan, Italy",
     "acceptance_rate": 15,
     "priority_score": 160,
     "days_until_deadline": 61
@@ -97,7 +97,7 @@
     "source_url": "https://www.usenix.org/conference/usenixsecurity26",
     "last_checked": "2026-03-29",
     "notes": "Premier security conference with rigorous peer review",
-    "location": "TBD",
+    "location": "Vancouver, BC, Canada",
     "acceptance_rate": 15,
     "priority_score": 150,
     "days_until_deadline": 51
@@ -122,7 +122,7 @@
     "source_url": "https://dimva2026.org/",
     "last_checked": "2026-03-29",
     "notes": "Focuses on detection and analysis of security threats",
-    "location": "TBD",
+    "location": "Bonn, Germany",
     "acceptance_rate": 22,
     "priority_score": 145,
     "days_until_deadline": 1
@@ -147,7 +147,7 @@
     "source_url": "https://sacmat2026.org/",
     "last_checked": "2026-03-29",
     "notes": "Premier venue for access control research",
-    "location": "TBD",
+    "location": "Washington, DC, USA",
     "acceptance_rate": 22,
     "priority_score": 145,
     "days_until_deadline": 2
@@ -172,7 +172,7 @@
     "source_url": "https://eurocrypt.iacr.org/2026/",
     "last_checked": "2026-03-29",
     "notes": "Top European cryptography conference",
-    "location": "TBD",
+    "location": "Vienna, Austria",
     "acceptance_rate": 15,
     "priority_score": 140,
     "days_until_deadline": 199
@@ -224,7 +224,7 @@
     "source_url": "https://ches.iacr.org/2026/",
     "last_checked": "2026-03-29",
     "notes": "Premier venue for cryptographic hardware and embedded systems security",
-    "location": "TBD",
+    "location": "Taipei, Taiwan",
     "acceptance_rate": 15,
     "priority_score": 140,
     "days_until_deadline": 107
@@ -250,7 +250,7 @@
     "source_url": "https://esorics2026.org/",
     "last_checked": "2026-03-29",
     "notes": "Premier European security conference with broad scope",
-    "location": "TBD",
+    "location": "Rome, Italy",
     "acceptance_rate": 22,
     "priority_score": 140,
     "days_until_deadline": 16
@@ -326,7 +326,7 @@
     "source_url": "https://csf2026.ieee-security.org/",
     "last_checked": "2026-03-29",
     "notes": "Focus on formal methods and foundations of security",
-    "location": "TBD",
+    "location": "Pittsburgh, PA, USA",
     "acceptance_rate": 22,
     "priority_score": 130,
     "days_until_deadline": 32
@@ -377,7 +377,7 @@
     "source_url": "https://cns2026.ieee.org/",
     "last_checked": "2026-03-29",
     "notes": "Focus on security in communications and networks",
-    "location": "TBD",
+    "location": "Boston, MA, USA",
     "acceptance_rate": 22,
     "priority_score": 125,
     "days_until_deadline": 16
@@ -402,7 +402,7 @@
     "source_url": "https://fc26.ifca.ai/",
     "last_checked": "2026-03-29",
     "notes": "Strong focus on applied cryptography and MPC applications",
-    "location": "TBD",
+    "location": "Curaçao",
     "acceptance_rate": 22,
     "priority_score": 120,
     "days_until_deadline": 169
@@ -428,7 +428,7 @@
     "source_url": "https://secrypt.scitevents.org/",
     "last_checked": "2026-03-29",
     "notes": "International conference focusing on security and cryptography research",
-    "location": "TBD",
+    "location": "Porto, Portugal",
     "acceptance_rate": 28,
     "priority_score": 120,
     "days_until_deadline": 21
@@ -454,7 +454,7 @@
     "source_url": "https://asiacrypt.iacr.org/2026/",
     "last_checked": "2026-03-29",
     "notes": "Major Asian cryptography conference, part of IACR flagship series",
-    "location": "TBD",
+    "location": "Tokyo, Japan",
     "acceptance_rate": 22,
     "priority_score": 120,
     "days_until_deadline": 92
@@ -634,7 +634,7 @@
     "source_url": "https://www.sigmobile.org/mobicom/2026/",
     "last_checked": "2026-03-29",
     "notes": "Premier mobile computing and networking conference with strong security track",
-    "location": "TBD",
+    "location": "Sydney, Australia",
     "acceptance_rate": 15,
     "priority_score": 115,
     "days_until_deadline": 138
@@ -684,7 +684,7 @@
     "source_url": "https://raid2026.org/",
     "last_checked": "2026-03-29",
     "notes": "Focus on attack detection and defense mechanisms",
-    "location": "TBD",
+    "location": "Paris, France",
     "acceptance_rate": 22,
     "priority_score": 115,
     "days_until_deadline": 31
@@ -709,7 +709,7 @@
     "source_url": "https://isc2026.org/",
     "last_checked": "2026-03-29",
     "notes": "International conference on information security",
-    "location": "TBD",
+    "location": "Hong Kong",
     "acceptance_rate": 22,
     "priority_score": 115,
     "days_until_deadline": 46
@@ -734,7 +734,7 @@
     "source_url": "https://pkc.iacr.org/2027/",
     "last_checked": "2026-03-29",
     "notes": "Leading venue for public-key cryptography research",
-    "location": "TBD",
+    "location": "Amsterdam, Netherlands",
     "acceptance_rate": 22,
     "priority_score": 110,
     "days_until_deadline": 199
@@ -785,7 +785,7 @@
     "source_url": "https://petsymposium.org/2026/",
     "last_checked": "2026-03-29",
     "notes": "Premier venue for privacy-enhancing technologies",
-    "location": "TBD",
+    "location": "Zurich, Switzerland",
     "acceptance_rate": 22,
     "priority_score": 110,
     "days_until_deadline": 154
@@ -811,7 +811,7 @@
     "source_url": "https://acisp2026.org/",
     "last_checked": "2026-03-29",
     "notes": "Leading Australasian security and privacy conference",
-    "location": "TBD",
+    "location": "Melbourne, Australia",
     "acceptance_rate": 22,
     "priority_score": 110,
     "days_until_deadline": -10
@@ -836,7 +836,7 @@
     "source_url": "https://www.acsac.org/2026/",
     "last_checked": "2026-03-29",
     "notes": "Long-standing conference focused on applied computer security",
-    "location": "TBD",
+    "location": "Austin, TX, USA",
     "acceptance_rate": 22,
     "priority_score": 105,
     "days_until_deadline": 63
@@ -1181,7 +1181,7 @@
     "source_url": "https://www.usenix.org/conference/soups2026",
     "last_checked": "2026-03-29",
     "notes": "Leading venue for usable security and privacy research",
-    "location": "TBD",
+    "location": "Philadelphia, PA, USA",
     "acceptance_rate": 22,
     "priority_score": 95,
     "days_until_deadline": -15
@@ -1206,7 +1206,7 @@
     "source_url": "https://wisec2026.org/",
     "last_checked": "2026-03-29",
     "notes": "Focus on wireless and mobile network security",
-    "location": "TBD",
+    "location": "Seoul, South Korea",
     "acceptance_rate": 22,
     "priority_score": 95,
     "days_until_deadline": -29
@@ -1231,7 +1231,7 @@
     "source_url": "https://securecomm.org/2026/",
     "last_checked": "2026-03-29",
     "notes": "International conference on secure communications",
-    "location": "TBD",
+    "location": "Singapore",
     "acceptance_rate": 22,
     "priority_score": 95,
     "days_until_deadline": 92
@@ -1256,7 +1256,7 @@
     "source_url": "https://trustcom2026.org/",
     "last_checked": "2026-03-29",
     "notes": "Focus on trust, security and privacy in computing",
-    "location": "TBD",
+    "location": "Dubai, UAE",
     "acceptance_rate": 22,
     "priority_score": 95,
     "days_until_deadline": 93
@@ -1280,7 +1280,7 @@
     "source_url": "https://ds-rt.com/2026/",
     "last_checked": "2026-03-29",
     "notes": "Focus on distributed simulation and real-time applications with security aspects",
-    "location": "TBD",
+    "location": "London, UK",
     "acceptance_rate": 28,
     "priority_score": 75,
     "days_until_deadline": 107
@@ -1306,7 +1306,7 @@
     "source_url": "https://milcom2026.org/",
     "last_checked": "2026-03-29",
     "notes": "IEEE conference on military communications and security",
-    "location": "TBD",
+    "location": "Washington, DC, USA",
     "acceptance_rate": 30,
     "priority_score": 75,
     "days_until_deadline": 77
