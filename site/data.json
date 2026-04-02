@@ -22,7 +22,7 @@
     "location": "Milan, Italy",
     "acceptance_rate": 15,
     "priority_score": 170,
-    "days_until_deadline": 59
+    "days_until_deadline": 58
   },
   {
     "id": "ccs-2026",
@@ -48,7 +48,7 @@
     "location": "Copenhagen, Denmark",
     "acceptance_rate": 15,
     "priority_score": 160,
-    "days_until_deadline": 44
+    "days_until_deadline": 43
   },
   {
     "id": "crypto-2026",
@@ -74,7 +74,33 @@
     "location": "Santa Barbara, CA, USA",
     "acceptance_rate": 15,
     "priority_score": 150,
-    "days_until_deadline": -45
+    "days_until_deadline": -46
+  },
+  {
+    "id": "sp-2026",
+    "title": "IEEE S&P 2026 - IEEE Symposium on Security and Privacy",
+    "venue_type": "conference",
+    "rank": "A*",
+    "area": [
+      "SEC",
+      "MPC"
+    ],
+    "topics": [
+      "privacy",
+      "security",
+      "secure protocols",
+      "cryptography"
+    ],
+    "deadline": "2026-06-01",
+    "status": "open",
+    "official_url": "https://www.ieee-security.org/TC/SP2026/",
+    "source_url": "https://www.ieee-security.org/TC/SP2026/",
+    "last_checked": "2026-03-29",
+    "notes": "Oakland conference - top venue for security and privacy",
+    "location": "San Francisco, CA, USA",
+    "acceptance_rate": 15,
+    "priority_score": 150,
+    "days_until_deadline": 60
   },
   {
     "id": "usenix-security-2026",
@@ -100,7 +126,7 @@
     "location": "Vancouver, BC, Canada",
     "acceptance_rate": 15,
     "priority_score": 150,
-    "days_until_deadline": 49
+    "days_until_deadline": 48
   },
   {
     "id": "esorics-2026",
@@ -126,32 +152,7 @@
     "location": "Rome, Italy",
     "acceptance_rate": 22,
     "priority_score": 150,
-    "days_until_deadline": 14
-  },
-  {
-    "id": "sacmat-2026",
-    "title": "SACMAT 2026 - ACM Symposium on Access Control Models and Technologies",
-    "venue_type": "conference",
-    "rank": "A",
-    "area": [
-      "SEC"
-    ],
-    "topics": [
-      "access control",
-      "authorization",
-      "security policies",
-      "authentication"
-    ],
-    "deadline": "2026-04-01",
-    "status": "open",
-    "official_url": "https://sacmat2026.org/",
-    "source_url": "https://sacmat2026.org/",
-    "last_checked": "2026-03-29",
-    "notes": "Premier venue for access control research",
-    "location": "Washington, DC, USA",
-    "acceptance_rate": 22,
-    "priority_score": 145,
-    "days_until_deadline": 0
+    "days_until_deadline": 13
   },
   {
     "id": "eurocrypt-2026",
@@ -176,33 +177,7 @@
     "location": "Vienna, Austria",
     "acceptance_rate": 15,
     "priority_score": 140,
-    "days_until_deadline": 197
-  },
-  {
-    "id": "sp-2026",
-    "title": "IEEE S&P 2026 - IEEE Symposium on Security and Privacy",
-    "venue_type": "conference",
-    "rank": "A*",
-    "area": [
-      "SEC",
-      "MPC"
-    ],
-    "topics": [
-      "privacy",
-      "security",
-      "secure protocols",
-      "cryptography"
-    ],
-    "deadline": "2026-06-01",
-    "status": "open",
-    "official_url": "https://www.ieee-security.org/TC/SP2026/",
-    "source_url": "https://www.ieee-security.org/TC/SP2026/",
-    "last_checked": "2026-03-29",
-    "notes": "Oakland conference - top venue for security and privacy",
-    "location": "San Francisco, CA, USA",
-    "acceptance_rate": 15,
-    "priority_score": 140,
-    "days_until_deadline": 61
+    "days_until_deadline": 196
   },
   {
     "id": "ches-2026",
@@ -228,7 +203,7 @@
     "location": "Taipei, Taiwan",
     "acceptance_rate": 15,
     "priority_score": 140,
-    "days_until_deadline": 105
+    "days_until_deadline": 104
   },
   {
     "id": "csf-2026",
@@ -254,7 +229,7 @@
     "location": "Pittsburgh, PA, USA",
     "acceptance_rate": 22,
     "priority_score": 140,
-    "days_until_deadline": 30
+    "days_until_deadline": 29
   },
   {
     "id": "joc-si-mpc-2026",
@@ -278,7 +253,7 @@
     "location": "Online",
     "acceptance_rate": 25,
     "priority_score": 135,
-    "days_until_deadline": 121
+    "days_until_deadline": 120
   },
   {
     "id": "cns-2026",
@@ -303,7 +278,7 @@
     "location": "Boston, MA, USA",
     "acceptance_rate": 22,
     "priority_score": 135,
-    "days_until_deadline": 14
+    "days_until_deadline": 13
   },
   {
     "id": "tdsc-2026",
@@ -329,7 +304,7 @@
     "location": "Online",
     "acceptance_rate": 25,
     "priority_score": 130,
-    "days_until_deadline": 274
+    "days_until_deadline": 273
   },
   {
     "id": "ieeetcc-2026",
@@ -355,7 +330,7 @@
     "location": "Online",
     "acceptance_rate": 25,
     "priority_score": 130,
-    "days_until_deadline": 274
+    "days_until_deadline": 273
   },
   {
     "id": "raid-2026",
@@ -380,7 +355,7 @@
     "location": "Paris, France",
     "acceptance_rate": 22,
     "priority_score": 125,
-    "days_until_deadline": 29
+    "days_until_deadline": 28
   },
   {
     "id": "fc-2026",
@@ -405,7 +380,7 @@
     "location": "Curaçao",
     "acceptance_rate": 22,
     "priority_score": 120,
-    "days_until_deadline": 167
+    "days_until_deadline": 166
   },
   {
     "id": "secrypt-2026",
@@ -431,7 +406,7 @@
     "location": "Porto, Portugal",
     "acceptance_rate": 28,
     "priority_score": 120,
-    "days_until_deadline": 19
+    "days_until_deadline": 18
   },
   {
     "id": "asiacrypt-2026",
@@ -457,7 +432,7 @@
     "location": "Tokyo, Japan",
     "acceptance_rate": 22,
     "priority_score": 120,
-    "days_until_deadline": 90
+    "days_until_deadline": 89
   },
   {
     "id": "tifs-2026",
@@ -483,7 +458,7 @@
     "location": "Online",
     "acceptance_rate": 25,
     "priority_score": 120,
-    "days_until_deadline": 274
+    "days_until_deadline": 273
   },
   {
     "id": "dcc-2026",
@@ -509,7 +484,7 @@
     "location": "Online",
     "acceptance_rate": 25,
     "priority_score": 120,
-    "days_until_deadline": 274
+    "days_until_deadline": 273
   },
   {
     "id": "tops-2026",
@@ -535,7 +510,7 @@
     "location": "Online",
     "acceptance_rate": 25,
     "priority_score": 120,
-    "days_until_deadline": 274
+    "days_until_deadline": 273
   },
   {
     "id": "csur-2026",
@@ -561,7 +536,7 @@
     "location": "Online",
     "acceptance_rate": 25,
     "priority_score": 120,
-    "days_until_deadline": 274
+    "days_until_deadline": 273
   },
   {
     "id": "tifs-si-pqc-2026",
@@ -586,7 +561,7 @@
     "location": "Online",
     "acceptance_rate": 25,
     "priority_score": 120,
-    "days_until_deadline": 182
+    "days_until_deadline": 181
   },
   {
     "id": "ins-2026",
@@ -612,7 +587,7 @@
     "location": "Online",
     "acceptance_rate": 25,
     "priority_score": 120,
-    "days_until_deadline": 274
+    "days_until_deadline": 273
   },
   {
     "id": "mobicom-2026",
@@ -637,7 +612,7 @@
     "location": "Sydney, Australia",
     "acceptance_rate": 15,
     "priority_score": 115,
-    "days_until_deadline": 136
+    "days_until_deadline": 135
   },
   {
     "id": "ndss-2027",
@@ -662,7 +637,32 @@
     "location": "San Diego, CA, USA",
     "acceptance_rate": 15,
     "priority_score": 115,
-    "days_until_deadline": 75
+    "days_until_deadline": 74
+  },
+  {
+    "id": "acsac-2026",
+    "title": "ACSAC 2026 - Annual Computer Security Applications Conference",
+    "venue_type": "conference",
+    "rank": "A",
+    "area": [
+      "SEC"
+    ],
+    "topics": [
+      "applied security",
+      "software security",
+      "network security",
+      "cryptography"
+    ],
+    "deadline": "2026-06-01",
+    "status": "open",
+    "official_url": "https://www.acsac.org/2026/",
+    "source_url": "https://www.acsac.org/2026/",
+    "last_checked": "2026-03-29",
+    "notes": "Long-standing conference focused on applied computer security",
+    "location": "Austin, TX, USA",
+    "acceptance_rate": 22,
+    "priority_score": 115,
+    "days_until_deadline": 60
   },
   {
     "id": "isc-2026",
@@ -687,7 +687,7 @@
     "location": "Hong Kong",
     "acceptance_rate": 22,
     "priority_score": 115,
-    "days_until_deadline": 44
+    "days_until_deadline": 43
   },
   {
     "id": "iros-2026",
@@ -713,7 +713,7 @@
     "location": "Abu Dhabi, UAE",
     "acceptance_rate": 45,
     "priority_score": 115,
-    "days_until_deadline": -17
+    "days_until_deadline": -18
   },
   {
     "id": "icra-2026",
@@ -739,7 +739,7 @@
     "location": "Philadelphia, PA, USA",
     "acceptance_rate": 42,
     "priority_score": 115,
-    "days_until_deadline": -198
+    "days_until_deadline": -199
   },
   {
     "id": "pkc-2027",
@@ -764,7 +764,7 @@
     "location": "Amsterdam, Netherlands",
     "acceptance_rate": 22,
     "priority_score": 110,
-    "days_until_deadline": 197
+    "days_until_deadline": 196
   },
   {
     "id": "ctrsa-2027",
@@ -789,7 +789,7 @@
     "location": "San Francisco, CA, USA",
     "acceptance_rate": 22,
     "priority_score": 110,
-    "days_until_deadline": 167
+    "days_until_deadline": 166
   },
   {
     "id": "pets-2026-4",
@@ -815,7 +815,7 @@
     "location": "Zurich, Switzerland",
     "acceptance_rate": 22,
     "priority_score": 110,
-    "days_until_deadline": 152
+    "days_until_deadline": 151
   },
   {
     "id": "acisp-2026",
@@ -841,32 +841,7 @@
     "location": "Melbourne, Australia",
     "acceptance_rate": 22,
     "priority_score": 110,
-    "days_until_deadline": -12
-  },
-  {
-    "id": "acsac-2026",
-    "title": "ACSAC 2026 - Annual Computer Security Applications Conference",
-    "venue_type": "conference",
-    "rank": "A",
-    "area": [
-      "SEC"
-    ],
-    "topics": [
-      "applied security",
-      "software security",
-      "network security",
-      "cryptography"
-    ],
-    "deadline": "2026-06-01",
-    "status": "open",
-    "official_url": "https://www.acsac.org/2026/",
-    "source_url": "https://www.acsac.org/2026/",
-    "last_checked": "2026-03-29",
-    "notes": "Long-standing conference focused on applied computer security",
-    "location": "Austin, TX, USA",
-    "acceptance_rate": 22,
-    "priority_score": 105,
-    "days_until_deadline": 61
+    "days_until_deadline": -13
   },
   {
     "id": "compsec-2026",
@@ -891,7 +866,7 @@
     "location": "Online",
     "acceptance_rate": 25,
     "priority_score": 105,
-    "days_until_deadline": 274
+    "days_until_deadline": 273
   },
   {
     "id": "ieeesp-mag-2026",
@@ -916,7 +891,7 @@
     "location": "Online",
     "acceptance_rate": 25,
     "priority_score": 105,
-    "days_until_deadline": 274
+    "days_until_deadline": 273
   },
   {
     "id": "tnse-2026",
@@ -941,7 +916,7 @@
     "location": "Online",
     "acceptance_rate": 25,
     "priority_score": 105,
-    "days_until_deadline": 274
+    "days_until_deadline": 273
   },
   {
     "id": "comst-2026",
@@ -966,7 +941,7 @@
     "location": "Online",
     "acceptance_rate": 25,
     "priority_score": 105,
-    "days_until_deadline": 274
+    "days_until_deadline": 273
   },
   {
     "id": "tcps-2026",
@@ -990,7 +965,7 @@
     "location": "Online",
     "acceptance_rate": 25,
     "priority_score": 105,
-    "days_until_deadline": 274
+    "days_until_deadline": 273
   },
   {
     "id": "iotj-2026",
@@ -1015,7 +990,7 @@
     "location": "Online",
     "acceptance_rate": 25,
     "priority_score": 105,
-    "days_until_deadline": 274
+    "days_until_deadline": 273
   },
   {
     "id": "fgcs-2026",
@@ -1039,7 +1014,7 @@
     "location": "Online",
     "acceptance_rate": 25,
     "priority_score": 105,
-    "days_until_deadline": 274
+    "days_until_deadline": 273
   },
   {
     "id": "jisa-2026",
@@ -1064,7 +1039,7 @@
     "location": "Online",
     "acceptance_rate": 25,
     "priority_score": 105,
-    "days_until_deadline": 274
+    "days_until_deadline": 273
   },
   {
     "id": "comnet-2026",
@@ -1088,7 +1063,7 @@
     "location": "Online",
     "acceptance_rate": 25,
     "priority_score": 105,
-    "days_until_deadline": 274
+    "days_until_deadline": 273
   },
   {
     "id": "tmc-2026",
@@ -1113,7 +1088,7 @@
     "location": "Online",
     "acceptance_rate": 25,
     "priority_score": 105,
-    "days_until_deadline": 274
+    "days_until_deadline": 273
   },
   {
     "id": "tosn-2026",
@@ -1138,7 +1113,7 @@
     "location": "Online",
     "acceptance_rate": 25,
     "priority_score": 105,
-    "days_until_deadline": 274
+    "days_until_deadline": 273
   },
   {
     "id": "adhoc-2026",
@@ -1162,7 +1137,7 @@
     "location": "Online",
     "acceptance_rate": 25,
     "priority_score": 105,
-    "days_until_deadline": 274
+    "days_until_deadline": 273
   },
   {
     "id": "ieeecomm-2026",
@@ -1186,7 +1161,7 @@
     "location": "Online",
     "acceptance_rate": 25,
     "priority_score": 105,
-    "days_until_deadline": 274
+    "days_until_deadline": 273
   },
   {
     "id": "soups-2026",
@@ -1211,7 +1186,7 @@
     "location": "Philadelphia, PA, USA",
     "acceptance_rate": 22,
     "priority_score": 95,
-    "days_until_deadline": -17
+    "days_until_deadline": -18
   },
   {
     "id": "dimva-2026",
@@ -1236,7 +1211,7 @@
     "location": "Bonn, Germany",
     "acceptance_rate": 22,
     "priority_score": 95,
-    "days_until_deadline": -1
+    "days_until_deadline": -2
   },
   {
     "id": "wisec-2026",
@@ -1261,7 +1236,32 @@
     "location": "Seoul, South Korea",
     "acceptance_rate": 22,
     "priority_score": 95,
-    "days_until_deadline": -31
+    "days_until_deadline": -32
+  },
+  {
+    "id": "sacmat-2026",
+    "title": "SACMAT 2026 - ACM Symposium on Access Control Models and Technologies",
+    "venue_type": "conference",
+    "rank": "A",
+    "area": [
+      "SEC"
+    ],
+    "topics": [
+      "access control",
+      "authorization",
+      "security policies",
+      "authentication"
+    ],
+    "deadline": "2026-04-01",
+    "status": "closed",
+    "official_url": "https://sacmat2026.org/",
+    "source_url": "https://sacmat2026.org/",
+    "last_checked": "2026-03-29",
+    "notes": "Premier venue for access control research",
+    "location": "Washington, DC, USA",
+    "acceptance_rate": 22,
+    "priority_score": 95,
+    "days_until_deadline": -1
   },
   {
     "id": "securecomm-2026",
@@ -1286,7 +1286,7 @@
     "location": "Singapore",
     "acceptance_rate": 22,
     "priority_score": 95,
-    "days_until_deadline": 90
+    "days_until_deadline": 89
   },
   {
     "id": "trustcom-2026",
@@ -1311,7 +1311,7 @@
     "location": "Dubai, UAE",
     "acceptance_rate": 22,
     "priority_score": 95,
-    "days_until_deadline": 91
+    "days_until_deadline": 90
   },
   {
     "id": "dsrt-2026",
@@ -1335,7 +1335,7 @@
     "location": "London, UK",
     "acceptance_rate": 28,
     "priority_score": 75,
-    "days_until_deadline": 105
+    "days_until_deadline": 104
   },
   {
     "id": "milcom-2026",
@@ -1361,6 +1361,6 @@
     "location": "Washington, DC, USA",
     "acceptance_rate": 30,
     "priority_score": 75,
-    "days_until_deadline": 75
+    "days_until_deadline": 74
   }
 ]
