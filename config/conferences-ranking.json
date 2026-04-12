@@ -1,6 +1,6 @@
 {
   "description": "Conference rankings based on CORE ranking (https://www.core.edu.au/conference-portal)",
-  "last_updated": "2026-03-28",
+  "last_updated": "2026-04-12",
   "rankings": {
     "A_STAR": [
       "CCS",
@@ -12,6 +12,7 @@
       "PODC",
       "TCC",
       "MOBICOM",
+      "INFOCOM",
       "CHES",
       "ASIA CCS",
       "IROS",
