@@ -615,6 +615,31 @@
     "days_until_deadline": 125
   },
   {
+    "id": "infocom-2027",
+    "title": "IEEE INFOCOM 2027 - IEEE International Conference on Computer Communications",
+    "venue_type": "conference",
+    "rank": "A*",
+    "area": [
+      "SEC"
+    ],
+    "topics": [
+      "network security",
+      "communication networks",
+      "internet architectures",
+      "wireless networks"
+    ],
+    "deadline": "2026-07-25",
+    "status": "upcoming",
+    "official_url": "https://ieee-infocom.org/",
+    "source_url": "https://ieee-infocom.org/",
+    "last_checked": "2026-04-12",
+    "notes": "Expected dates May 17-20, 2027 in Honolulu, Hawaii; CORE A* venue; abstract deadline July 17 with full paper due July 25, 2026 at 14:59:59; CFP yet to be announced",
+    "location": "Honolulu, Hawaii, USA",
+    "acceptance_rate": null,
+    "priority_score": 115,
+    "days_until_deadline": 104
+  },
+  {
     "id": "ndss-2027",
     "title": "NDSS 2027 - Network and Distributed System Security Symposium",
     "venue_type": "conference",
