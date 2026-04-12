@@ -1,30 +1,5 @@
 [
   {
-    "id": "tcc-2026",
-    "title": "TCC 2026 - Theory of Cryptography Conference",
-    "venue_type": "conference",
-    "rank": "A*",
-    "area": [
-      "MPC",
-      "SEC"
-    ],
-    "topics": [
-      "multi-party computation",
-      "theoretical cryptography",
-      "secure computation foundations"
-    ],
-    "deadline": "2026-05-30",
-    "status": "open",
-    "official_url": "https://tcc.iacr.org/2026/",
-    "source_url": "https://tcc.iacr.org/2026/",
-    "last_checked": "2026-03-29",
-    "notes": "Premier theory conference for cryptography and MPC",
-    "location": "Milan, Italy",
-    "acceptance_rate": 15,
-    "priority_score": 170,
-    "days_until_deadline": 48
-  },
-  {
     "id": "ccs-2026",
     "title": "ACM CCS 2026 - ACM Conference on Computer and Communications Security",
     "venue_type": "conference",
@@ -39,42 +14,16 @@
       "privacy",
       "applied cryptography"
     ],
-    "deadline": "2026-05-15",
+    "deadline": "2026-04-29",
     "status": "open",
     "official_url": "https://www.sigsac.org/ccs/CCS2026/",
     "source_url": "https://www.sigsac.org/ccs/CCS2026/",
-    "last_checked": "2026-03-29",
-    "notes": "Premier security conference with strong cryptography track",
-    "location": "Copenhagen, Denmark",
+    "last_checked": "2026-04-12",
+    "notes": "Premier security conference with strong cryptography track; two-cycle review with second-cycle deadline on 2026-04-29",
+    "location": "The Hague, Netherlands",
     "acceptance_rate": 15,
-    "priority_score": 160,
-    "days_until_deadline": 33
-  },
-  {
-    "id": "esorics-2026",
-    "title": "ESORICS 2026 - European Symposium on Research in Computer Security",
-    "venue_type": "conference",
-    "rank": "A",
-    "area": [
-      "SEC",
-      "MPC"
-    ],
-    "topics": [
-      "computer security",
-      "cryptography",
-      "privacy",
-      "security protocols"
-    ],
-    "deadline": "2026-04-15",
-    "status": "open",
-    "official_url": "https://esorics2026.org/",
-    "source_url": "https://esorics2026.org/",
-    "last_checked": "2026-03-29",
-    "notes": "Premier European security conference with broad scope",
-    "location": "Rome, Italy",
-    "acceptance_rate": 22,
-    "priority_score": 160,
-    "days_until_deadline": 3
+    "priority_score": 170,
+    "days_until_deadline": 17
   },
   {
     "id": "crypto-2026",
@@ -155,6 +104,32 @@
     "days_until_deadline": 38
   },
   {
+    "id": "esorics-2026",
+    "title": "ESORICS 2026 - European Symposium on Research in Computer Security",
+    "venue_type": "conference",
+    "rank": "A",
+    "area": [
+      "SEC",
+      "MPC"
+    ],
+    "topics": [
+      "computer security",
+      "cryptography",
+      "privacy",
+      "security protocols"
+    ],
+    "deadline": "2026-04-21",
+    "status": "open",
+    "official_url": "https://esorics2026.org/",
+    "source_url": "https://esorics2026.org/",
+    "last_checked": "2026-04-12",
+    "notes": "Premier European security conference with broad scope",
+    "location": "Rome, Italy",
+    "acceptance_rate": 22,
+    "priority_score": 150,
+    "days_until_deadline": 9
+  },
+  {
     "id": "cns-2026",
     "title": "CNS 2026 - IEEE Conference on Communications and Network Security",
     "venue_type": "conference",
@@ -203,6 +178,31 @@
     "acceptance_rate": 15,
     "priority_score": 140,
     "days_until_deadline": 186
+  },
+  {
+    "id": "tcc-2026",
+    "title": "TCC 2026 - Theory of Cryptography Conference",
+    "venue_type": "conference",
+    "rank": "A*",
+    "area": [
+      "MPC",
+      "SEC"
+    ],
+    "topics": [
+      "multi-party computation",
+      "theoretical cryptography",
+      "secure computation foundations"
+    ],
+    "deadline": "2026-12-31",
+    "status": "upcoming",
+    "official_url": "https://www.iacr.org/meetings/tcc/",
+    "source_url": "https://www.iacr.org/meetings/tcc/",
+    "last_checked": "2026-04-12",
+    "notes": "Details for TCC 2026 are not yet published by IACR; deadline and location are placeholders until the official CFP is released",
+    "location": "To be announced",
+    "acceptance_rate": 15,
+    "priority_score": 140,
+    "days_until_deadline": 263
   },
   {
     "id": "ches-2026",
