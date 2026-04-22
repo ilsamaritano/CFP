@@ -22,8 +22,8 @@
     "notes": "Premier security conference with strong cryptography track; two-cycle review with second-cycle deadline on 2026-04-29",
     "location": "The Hague, Netherlands",
     "acceptance_rate": 15,
-    "priority_score": 180,
-    "days_until_deadline": 8
+    "priority_score": 190,
+    "days_until_deadline": 7
   },
   {
     "id": "usenix-security-2026",
@@ -49,33 +49,7 @@
     "location": "Vancouver, BC, Canada",
     "acceptance_rate": 15,
     "priority_score": 160,
-    "days_until_deadline": 29
-  },
-  {
-    "id": "esorics-2026",
-    "title": "ESORICS 2026 - European Symposium on Research in Computer Security",
-    "venue_type": "conference",
-    "rank": "A",
-    "area": [
-      "SEC",
-      "MPC"
-    ],
-    "topics": [
-      "computer security",
-      "cryptography",
-      "privacy",
-      "security protocols"
-    ],
-    "deadline": "2026-04-21",
-    "status": "open",
-    "official_url": "https://esorics2026.org/",
-    "source_url": "https://esorics2026.org/",
-    "last_checked": "2026-04-12",
-    "notes": "Premier European security conference with broad scope",
-    "location": "Rome, Italy",
-    "acceptance_rate": 22,
-    "priority_score": 160,
-    "days_until_deadline": 0
+    "days_until_deadline": 28
   },
   {
     "id": "crypto-2026",
@@ -101,7 +75,7 @@
     "location": "Santa Barbara, CA, USA",
     "acceptance_rate": 15,
     "priority_score": 150,
-    "days_until_deadline": -65
+    "days_until_deadline": -66
   },
   {
     "id": "sp-2026",
@@ -127,7 +101,7 @@
     "location": "San Francisco, CA, USA",
     "acceptance_rate": 15,
     "priority_score": 150,
-    "days_until_deadline": 41
+    "days_until_deadline": 40
   },
   {
     "id": "csf-2026",
@@ -153,7 +127,7 @@
     "location": "Pittsburgh, PA, USA",
     "acceptance_rate": 22,
     "priority_score": 150,
-    "days_until_deadline": 10
+    "days_until_deadline": 9
   },
   {
     "id": "eurocrypt-2026",
@@ -178,7 +152,7 @@
     "location": "Vienna, Austria",
     "acceptance_rate": 15,
     "priority_score": 140,
-    "days_until_deadline": 177
+    "days_until_deadline": 176
   },
   {
     "id": "tcc-2026",
@@ -203,7 +177,7 @@
     "location": "To be announced",
     "acceptance_rate": 15,
     "priority_score": 140,
-    "days_until_deadline": 254
+    "days_until_deadline": 253
   },
   {
     "id": "ches-2026",
@@ -229,7 +203,7 @@
     "location": "Taipei, Taiwan",
     "acceptance_rate": 15,
     "priority_score": 140,
-    "days_until_deadline": 85
+    "days_until_deadline": 84
   },
   {
     "id": "joc-si-mpc-2026",
@@ -253,7 +227,7 @@
     "location": "Online",
     "acceptance_rate": 25,
     "priority_score": 135,
-    "days_until_deadline": 101
+    "days_until_deadline": 100
   },
   {
     "id": "raid-2026",
@@ -278,7 +252,7 @@
     "location": "Paris, France",
     "acceptance_rate": 22,
     "priority_score": 135,
-    "days_until_deadline": 9
+    "days_until_deadline": 8
   },
   {
     "id": "tdsc-2026",
@@ -304,7 +278,7 @@
     "location": "Online",
     "acceptance_rate": 25,
     "priority_score": 130,
-    "days_until_deadline": 254
+    "days_until_deadline": 253
   },
   {
     "id": "ieeetcc-2026",
@@ -330,7 +304,7 @@
     "location": "Online",
     "acceptance_rate": 25,
     "priority_score": 130,
-    "days_until_deadline": 254
+    "days_until_deadline": 253
   },
   {
     "id": "isc-2026",
@@ -355,7 +329,7 @@
     "location": "Hong Kong",
     "acceptance_rate": 22,
     "priority_score": 125,
-    "days_until_deadline": 24
+    "days_until_deadline": 23
   },
   {
     "id": "fc-2026",
@@ -380,7 +354,7 @@
     "location": "Curaçao",
     "acceptance_rate": 22,
     "priority_score": 120,
-    "days_until_deadline": 147
+    "days_until_deadline": 146
   },
   {
     "id": "asiacrypt-2026",
@@ -406,7 +380,7 @@
     "location": "Tokyo, Japan",
     "acceptance_rate": 22,
     "priority_score": 120,
-    "days_until_deadline": 70
+    "days_until_deadline": 69
   },
   {
     "id": "tifs-2026",
@@ -432,7 +406,7 @@
     "location": "Online",
     "acceptance_rate": 25,
     "priority_score": 120,
-    "days_until_deadline": 254
+    "days_until_deadline": 253
   },
   {
     "id": "dcc-2026",
@@ -458,7 +432,7 @@
     "location": "Online",
     "acceptance_rate": 25,
     "priority_score": 120,
-    "days_until_deadline": 254
+    "days_until_deadline": 253
   },
   {
     "id": "tops-2026",
@@ -484,7 +458,7 @@
     "location": "Online",
     "acceptance_rate": 25,
     "priority_score": 120,
-    "days_until_deadline": 254
+    "days_until_deadline": 253
   },
   {
     "id": "csur-2026",
@@ -510,7 +484,7 @@
     "location": "Online",
     "acceptance_rate": 25,
     "priority_score": 120,
-    "days_until_deadline": 254
+    "days_until_deadline": 253
   },
   {
     "id": "tifs-si-pqc-2026",
@@ -535,7 +509,7 @@
     "location": "Online",
     "acceptance_rate": 25,
     "priority_score": 120,
-    "days_until_deadline": 162
+    "days_until_deadline": 161
   },
   {
     "id": "ins-2026",
@@ -561,7 +535,7 @@
     "location": "Online",
     "acceptance_rate": 25,
     "priority_score": 120,
-    "days_until_deadline": 254
+    "days_until_deadline": 253
   },
   {
     "id": "mobicom-2026",
@@ -586,7 +560,7 @@
     "location": "Sydney, Australia",
     "acceptance_rate": 15,
     "priority_score": 115,
-    "days_until_deadline": 116
+    "days_until_deadline": 115
   },
   {
     "id": "infocom-2027",
@@ -611,7 +585,7 @@
     "location": "Honolulu, Hawaii, USA",
     "acceptance_rate": null,
     "priority_score": 115,
-    "days_until_deadline": 95
+    "days_until_deadline": 94
   },
   {
     "id": "ndss-2027",
@@ -636,7 +610,7 @@
     "location": "San Diego, CA, USA",
     "acceptance_rate": 15,
     "priority_score": 115,
-    "days_until_deadline": 55
+    "days_until_deadline": 54
   },
   {
     "id": "acsac-2026",
@@ -661,7 +635,7 @@
     "location": "Austin, TX, USA",
     "acceptance_rate": 22,
     "priority_score": 115,
-    "days_until_deadline": 41
+    "days_until_deadline": 40
   },
   {
     "id": "iros-2026",
@@ -687,7 +661,7 @@
     "location": "Abu Dhabi, UAE",
     "acceptance_rate": 45,
     "priority_score": 115,
-    "days_until_deadline": -37
+    "days_until_deadline": -38
   },
   {
     "id": "icra-2026",
@@ -713,7 +687,33 @@
     "location": "Philadelphia, PA, USA",
     "acceptance_rate": 42,
     "priority_score": 115,
-    "days_until_deadline": -218
+    "days_until_deadline": -219
+  },
+  {
+    "id": "esorics-2026",
+    "title": "ESORICS 2026 - European Symposium on Research in Computer Security",
+    "venue_type": "conference",
+    "rank": "A",
+    "area": [
+      "SEC",
+      "MPC"
+    ],
+    "topics": [
+      "computer security",
+      "cryptography",
+      "privacy",
+      "security protocols"
+    ],
+    "deadline": "2026-04-21",
+    "status": "closed",
+    "official_url": "https://esorics2026.org/",
+    "source_url": "https://esorics2026.org/",
+    "last_checked": "2026-04-12",
+    "notes": "Premier European security conference with broad scope",
+    "location": "Rome, Italy",
+    "acceptance_rate": 22,
+    "priority_score": 110,
+    "days_until_deadline": -1
   },
   {
     "id": "pkc-2027",
@@ -738,7 +738,7 @@
     "location": "Amsterdam, Netherlands",
     "acceptance_rate": 22,
     "priority_score": 110,
-    "days_until_deadline": 177
+    "days_until_deadline": 176
   },
   {
     "id": "ctrsa-2027",
@@ -763,7 +763,7 @@
     "location": "San Francisco, CA, USA",
     "acceptance_rate": 22,
     "priority_score": 110,
-    "days_until_deadline": 147
+    "days_until_deadline": 146
   },
   {
     "id": "pets-2026-4",
@@ -789,7 +789,7 @@
     "location": "Zurich, Switzerland",
     "acceptance_rate": 22,
     "priority_score": 110,
-    "days_until_deadline": 132
+    "days_until_deadline": 131
   },
   {
     "id": "acisp-2026",
@@ -815,7 +815,7 @@
     "location": "Melbourne, Australia",
     "acceptance_rate": 22,
     "priority_score": 110,
-    "days_until_deadline": -32
+    "days_until_deadline": -33
   },
   {
     "id": "compsec-2026",
@@ -840,7 +840,7 @@
     "location": "Online",
     "acceptance_rate": 25,
     "priority_score": 105,
-    "days_until_deadline": 254
+    "days_until_deadline": 253
   },
   {
     "id": "ieeesp-mag-2026",
@@ -865,7 +865,7 @@
     "location": "Online",
     "acceptance_rate": 25,
     "priority_score": 105,
-    "days_until_deadline": 254
+    "days_until_deadline": 253
   },
   {
     "id": "tnse-2026",
@@ -890,7 +890,7 @@
     "location": "Online",
     "acceptance_rate": 25,
     "priority_score": 105,
-    "days_until_deadline": 254
+    "days_until_deadline": 253
   },
   {
     "id": "comst-2026",
@@ -915,7 +915,7 @@
     "location": "Online",
     "acceptance_rate": 25,
     "priority_score": 105,
-    "days_until_deadline": 254
+    "days_until_deadline": 253
   },
   {
     "id": "tcps-2026",
@@ -939,7 +939,7 @@
     "location": "Online",
     "acceptance_rate": 25,
     "priority_score": 105,
-    "days_until_deadline": 254
+    "days_until_deadline": 253
   },
   {
     "id": "iotj-2026",
@@ -964,7 +964,7 @@
     "location": "Online",
     "acceptance_rate": 25,
     "priority_score": 105,
-    "days_until_deadline": 254
+    "days_until_deadline": 253
   },
   {
     "id": "fgcs-2026",
@@ -988,7 +988,7 @@
     "location": "Online",
     "acceptance_rate": 25,
     "priority_score": 105,
-    "days_until_deadline": 254
+    "days_until_deadline": 253
   },
   {
     "id": "jisa-2026",
@@ -1013,7 +1013,7 @@
     "location": "Online",
     "acceptance_rate": 25,
     "priority_score": 105,
-    "days_until_deadline": 254
+    "days_until_deadline": 253
   },
   {
     "id": "comnet-2026",
@@ -1037,7 +1037,7 @@
     "location": "Online",
     "acceptance_rate": 25,
     "priority_score": 105,
-    "days_until_deadline": 254
+    "days_until_deadline": 253
   },
   {
     "id": "tmc-2026",
@@ -1062,7 +1062,7 @@
     "location": "Online",
     "acceptance_rate": 25,
     "priority_score": 105,
-    "days_until_deadline": 254
+    "days_until_deadline": 253
   },
   {
     "id": "tosn-2026",
@@ -1087,7 +1087,7 @@
     "location": "Online",
     "acceptance_rate": 25,
     "priority_score": 105,
-    "days_until_deadline": 254
+    "days_until_deadline": 253
   },
   {
     "id": "adhoc-2026",
@@ -1111,7 +1111,7 @@
     "location": "Online",
     "acceptance_rate": 25,
     "priority_score": 105,
-    "days_until_deadline": 254
+    "days_until_deadline": 253
   },
   {
     "id": "ieeecomm-2026",
@@ -1135,7 +1135,7 @@
     "location": "Online",
     "acceptance_rate": 25,
     "priority_score": 105,
-    "days_until_deadline": 254
+    "days_until_deadline": 253
   },
   {
     "id": "soups-2026",
@@ -1160,7 +1160,7 @@
     "location": "Philadelphia, PA, USA",
     "acceptance_rate": 22,
     "priority_score": 95,
-    "days_until_deadline": -37
+    "days_until_deadline": -38
   },
   {
     "id": "dimva-2026",
@@ -1185,7 +1185,7 @@
     "location": "Bonn, Germany",
     "acceptance_rate": 22,
     "priority_score": 95,
-    "days_until_deadline": -21
+    "days_until_deadline": -22
   },
   {
     "id": "wisec-2026",
@@ -1210,7 +1210,7 @@
     "location": "Seoul, South Korea",
     "acceptance_rate": 22,
     "priority_score": 95,
-    "days_until_deadline": -51
+    "days_until_deadline": -52
   },
   {
     "id": "sacmat-2026",
@@ -1235,7 +1235,7 @@
     "location": "Washington, DC, USA",
     "acceptance_rate": 22,
     "priority_score": 95,
-    "days_until_deadline": -20
+    "days_until_deadline": -21
   },
   {
     "id": "cns-2026",
@@ -1260,7 +1260,7 @@
     "location": "Boston, MA, USA",
     "acceptance_rate": 22,
     "priority_score": 95,
-    "days_until_deadline": -6
+    "days_until_deadline": -7
   },
   {
     "id": "securecomm-2026",
@@ -1285,7 +1285,7 @@
     "location": "Singapore",
     "acceptance_rate": 22,
     "priority_score": 95,
-    "days_until_deadline": 70
+    "days_until_deadline": 69
   },
   {
     "id": "trustcom-2026",
@@ -1310,7 +1310,7 @@
     "location": "Dubai, UAE",
     "acceptance_rate": 22,
     "priority_score": 95,
-    "days_until_deadline": 71
+    "days_until_deadline": 70
   },
   {
     "id": "secrypt-2026",
@@ -1336,7 +1336,7 @@
     "location": "Porto, Portugal",
     "acceptance_rate": 28,
     "priority_score": 90,
-    "days_until_deadline": -1
+    "days_until_deadline": -2
   },
   {
     "id": "dsrt-2026",
@@ -1360,7 +1360,7 @@
     "location": "London, UK",
     "acceptance_rate": 28,
     "priority_score": 85,
-    "days_until_deadline": 85
+    "days_until_deadline": 84
   },
   {
     "id": "milcom-2026",
@@ -1386,6 +1386,6 @@
     "location": "Washington, DC, USA",
     "acceptance_rate": 30,
     "priority_score": 75,
-    "days_until_deadline": 55
+    "days_until_deadline": 54
   }
 ]
