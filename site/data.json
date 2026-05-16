@@ -23,7 +23,7 @@
     "location": "Vancouver, BC, Canada",
     "acceptance_rate": 15,
     "priority_score": 180,
-    "days_until_deadline": 5
+    "days_until_deadline": 4
   },
   {
     "id": "sp-2026",
@@ -49,7 +49,7 @@
     "location": "San Francisco, CA, USA",
     "acceptance_rate": 15,
     "priority_score": 160,
-    "days_until_deadline": 17
+    "days_until_deadline": 16
   },
   {
     "id": "crypto-2026",
@@ -75,7 +75,7 @@
     "location": "Santa Barbara, CA, USA",
     "acceptance_rate": 15,
     "priority_score": 150,
-    "days_until_deadline": -89
+    "days_until_deadline": -90
   },
   {
     "id": "joc-si-mpc-2026",
@@ -99,32 +99,7 @@
     "location": "Online",
     "acceptance_rate": 25,
     "priority_score": 145,
-    "days_until_deadline": 77
-  },
-  {
-    "id": "isc-2026",
-    "title": "ISC 2026 - Information Security Conference",
-    "venue_type": "conference",
-    "rank": "A",
-    "area": [
-      "SEC"
-    ],
-    "topics": [
-      "information security",
-      "cryptography",
-      "network security",
-      "system security"
-    ],
-    "deadline": "2026-05-15",
-    "status": "open",
-    "official_url": "https://isc2026.org/",
-    "source_url": "https://isc2026.org/",
-    "last_checked": "2026-03-29",
-    "notes": "International conference on information security",
-    "location": "Hong Kong",
-    "acceptance_rate": 22,
-    "priority_score": 145,
-    "days_until_deadline": 0
+    "days_until_deadline": 76
   },
   {
     "id": "ccs-2026",
@@ -150,7 +125,7 @@
     "location": "The Hague, Netherlands",
     "acceptance_rate": 15,
     "priority_score": 140,
-    "days_until_deadline": -16
+    "days_until_deadline": -17
   },
   {
     "id": "eurocrypt-2026",
@@ -175,7 +150,7 @@
     "location": "Vienna, Austria",
     "acceptance_rate": 15,
     "priority_score": 140,
-    "days_until_deadline": 153
+    "days_until_deadline": 152
   },
   {
     "id": "tcc-2026",
@@ -200,7 +175,7 @@
     "location": "To be announced",
     "acceptance_rate": 15,
     "priority_score": 140,
-    "days_until_deadline": 230
+    "days_until_deadline": 229
   },
   {
     "id": "ches-2026",
@@ -226,7 +201,7 @@
     "location": "Taipei, Taiwan",
     "acceptance_rate": 15,
     "priority_score": 140,
-    "days_until_deadline": 61
+    "days_until_deadline": 60
   },
   {
     "id": "tdsc-2026",
@@ -252,7 +227,7 @@
     "location": "Online",
     "acceptance_rate": 25,
     "priority_score": 130,
-    "days_until_deadline": 230
+    "days_until_deadline": 229
   },
   {
     "id": "ieeetcc-2026",
@@ -278,7 +253,7 @@
     "location": "Online",
     "acceptance_rate": 25,
     "priority_score": 130,
-    "days_until_deadline": 230
+    "days_until_deadline": 229
   },
   {
     "id": "acsac-2026",
@@ -303,7 +278,7 @@
     "location": "Austin, TX, USA",
     "acceptance_rate": 22,
     "priority_score": 125,
-    "days_until_deadline": 17
+    "days_until_deadline": 16
   },
   {
     "id": "fc-2026",
@@ -328,7 +303,7 @@
     "location": "Curaçao",
     "acceptance_rate": 22,
     "priority_score": 120,
-    "days_until_deadline": 123
+    "days_until_deadline": 122
   },
   {
     "id": "asiacrypt-2026",
@@ -354,7 +329,7 @@
     "location": "Tokyo, Japan",
     "acceptance_rate": 22,
     "priority_score": 120,
-    "days_until_deadline": 46
+    "days_until_deadline": 45
   },
   {
     "id": "tifs-2026",
@@ -380,7 +355,7 @@
     "location": "Online",
     "acceptance_rate": 25,
     "priority_score": 120,
-    "days_until_deadline": 230
+    "days_until_deadline": 229
   },
   {
     "id": "dcc-2026",
@@ -406,7 +381,7 @@
     "location": "Online",
     "acceptance_rate": 25,
     "priority_score": 120,
-    "days_until_deadline": 230
+    "days_until_deadline": 229
   },
   {
     "id": "tops-2026",
@@ -432,7 +407,7 @@
     "location": "Online",
     "acceptance_rate": 25,
     "priority_score": 120,
-    "days_until_deadline": 230
+    "days_until_deadline": 229
   },
   {
     "id": "csur-2026",
@@ -458,7 +433,7 @@
     "location": "Online",
     "acceptance_rate": 25,
     "priority_score": 120,
-    "days_until_deadline": 230
+    "days_until_deadline": 229
   },
   {
     "id": "tifs-si-pqc-2026",
@@ -483,7 +458,7 @@
     "location": "Online",
     "acceptance_rate": 25,
     "priority_score": 120,
-    "days_until_deadline": 138
+    "days_until_deadline": 137
   },
   {
     "id": "ins-2026",
@@ -509,7 +484,7 @@
     "location": "Online",
     "acceptance_rate": 25,
     "priority_score": 120,
-    "days_until_deadline": 230
+    "days_until_deadline": 229
   },
   {
     "id": "mobicom-2026",
@@ -534,7 +509,7 @@
     "location": "Sydney, Australia",
     "acceptance_rate": 15,
     "priority_score": 115,
-    "days_until_deadline": 92
+    "days_until_deadline": 91
   },
   {
     "id": "infocom-2027",
@@ -559,7 +534,7 @@
     "location": "Honolulu, Hawaii, USA",
     "acceptance_rate": null,
     "priority_score": 115,
-    "days_until_deadline": 71
+    "days_until_deadline": 70
   },
   {
     "id": "ndss-2027",
@@ -584,7 +559,7 @@
     "location": "San Diego, CA, USA",
     "acceptance_rate": 15,
     "priority_score": 115,
-    "days_until_deadline": 31
+    "days_until_deadline": 30
   },
   {
     "id": "iros-2026",
@@ -610,7 +585,7 @@
     "location": "Abu Dhabi, UAE",
     "acceptance_rate": 45,
     "priority_score": 115,
-    "days_until_deadline": -61
+    "days_until_deadline": -62
   },
   {
     "id": "icra-2026",
@@ -636,7 +611,7 @@
     "location": "Philadelphia, PA, USA",
     "acceptance_rate": 42,
     "priority_score": 115,
-    "days_until_deadline": -242
+    "days_until_deadline": -243
   },
   {
     "id": "esorics-2026",
@@ -662,7 +637,7 @@
     "location": "Rome, Italy",
     "acceptance_rate": 22,
     "priority_score": 110,
-    "days_until_deadline": -24
+    "days_until_deadline": -25
   },
   {
     "id": "pkc-2027",
@@ -687,7 +662,7 @@
     "location": "Amsterdam, Netherlands",
     "acceptance_rate": 22,
     "priority_score": 110,
-    "days_until_deadline": 153
+    "days_until_deadline": 152
   },
   {
     "id": "ctrsa-2027",
@@ -712,7 +687,7 @@
     "location": "San Francisco, CA, USA",
     "acceptance_rate": 22,
     "priority_score": 110,
-    "days_until_deadline": 123
+    "days_until_deadline": 122
   },
   {
     "id": "csf-2026",
@@ -738,7 +713,7 @@
     "location": "Pittsburgh, PA, USA",
     "acceptance_rate": 22,
     "priority_score": 110,
-    "days_until_deadline": -14
+    "days_until_deadline": -15
   },
   {
     "id": "pets-2026-4",
@@ -764,7 +739,7 @@
     "location": "Zurich, Switzerland",
     "acceptance_rate": 22,
     "priority_score": 110,
-    "days_until_deadline": 108
+    "days_until_deadline": 107
   },
   {
     "id": "acisp-2026",
@@ -790,7 +765,7 @@
     "location": "Melbourne, Australia",
     "acceptance_rate": 22,
     "priority_score": 110,
-    "days_until_deadline": -56
+    "days_until_deadline": -57
   },
   {
     "id": "compsec-2026",
@@ -815,7 +790,7 @@
     "location": "Online",
     "acceptance_rate": 25,
     "priority_score": 105,
-    "days_until_deadline": 230
+    "days_until_deadline": 229
   },
   {
     "id": "ieeesp-mag-2026",
@@ -840,7 +815,7 @@
     "location": "Online",
     "acceptance_rate": 25,
     "priority_score": 105,
-    "days_until_deadline": 230
+    "days_until_deadline": 229
   },
   {
     "id": "tnse-2026",
@@ -865,7 +840,7 @@
     "location": "Online",
     "acceptance_rate": 25,
     "priority_score": 105,
-    "days_until_deadline": 230
+    "days_until_deadline": 229
   },
   {
     "id": "comst-2026",
@@ -890,7 +865,7 @@
     "location": "Online",
     "acceptance_rate": 25,
     "priority_score": 105,
-    "days_until_deadline": 230
+    "days_until_deadline": 229
   },
   {
     "id": "tcps-2026",
@@ -914,7 +889,7 @@
     "location": "Online",
     "acceptance_rate": 25,
     "priority_score": 105,
-    "days_until_deadline": 230
+    "days_until_deadline": 229
   },
   {
     "id": "iotj-2026",
@@ -939,7 +914,7 @@
     "location": "Online",
     "acceptance_rate": 25,
     "priority_score": 105,
-    "days_until_deadline": 230
+    "days_until_deadline": 229
   },
   {
     "id": "fgcs-2026",
@@ -963,7 +938,7 @@
     "location": "Online",
     "acceptance_rate": 25,
     "priority_score": 105,
-    "days_until_deadline": 230
+    "days_until_deadline": 229
   },
   {
     "id": "jisa-2026",
@@ -988,7 +963,7 @@
     "location": "Online",
     "acceptance_rate": 25,
     "priority_score": 105,
-    "days_until_deadline": 230
+    "days_until_deadline": 229
   },
   {
     "id": "comnet-2026",
@@ -1012,7 +987,7 @@
     "location": "Online",
     "acceptance_rate": 25,
     "priority_score": 105,
-    "days_until_deadline": 230
+    "days_until_deadline": 229
   },
   {
     "id": "tmc-2026",
@@ -1037,7 +1012,7 @@
     "location": "Online",
     "acceptance_rate": 25,
     "priority_score": 105,
-    "days_until_deadline": 230
+    "days_until_deadline": 229
   },
   {
     "id": "tosn-2026",
@@ -1062,7 +1037,7 @@
     "location": "Online",
     "acceptance_rate": 25,
     "priority_score": 105,
-    "days_until_deadline": 230
+    "days_until_deadline": 229
   },
   {
     "id": "adhoc-2026",
@@ -1086,7 +1061,7 @@
     "location": "Online",
     "acceptance_rate": 25,
     "priority_score": 105,
-    "days_until_deadline": 230
+    "days_until_deadline": 229
   },
   {
     "id": "ieeecomm-2026",
@@ -1110,7 +1085,31 @@
     "location": "Online",
     "acceptance_rate": 25,
     "priority_score": 105,
-    "days_until_deadline": 230
+    "days_until_deadline": 229
+  },
+  {
+    "id": "dsrt-2026",
+    "title": "DS-RT 2026 - IEEE/ACM International Symposium on Distributed Simulation and Real Time Applications",
+    "venue_type": "conference",
+    "rank": "B",
+    "area": [
+      "SEC"
+    ],
+    "topics": [
+      "distributed systems",
+      "security",
+      "real-time systems"
+    ],
+    "deadline": "2026-07-15",
+    "status": "open",
+    "official_url": "https://ds-rt.com/2026/",
+    "source_url": "https://ds-rt.com/2026/",
+    "last_checked": "2026-03-29",
+    "notes": "Focus on distributed simulation and real-time applications with security aspects",
+    "location": "London, UK",
+    "acceptance_rate": 28,
+    "priority_score": 95,
+    "days_until_deadline": 60
   },
   {
     "id": "raid-2026",
@@ -1135,7 +1134,7 @@
     "location": "Paris, France",
     "acceptance_rate": 22,
     "priority_score": 95,
-    "days_until_deadline": -15
+    "days_until_deadline": -16
   },
   {
     "id": "soups-2026",
@@ -1160,7 +1159,7 @@
     "location": "Philadelphia, PA, USA",
     "acceptance_rate": 22,
     "priority_score": 95,
-    "days_until_deadline": -61
+    "days_until_deadline": -62
   },
   {
     "id": "dimva-2026",
@@ -1185,7 +1184,32 @@
     "location": "Bonn, Germany",
     "acceptance_rate": 22,
     "priority_score": 95,
-    "days_until_deadline": -45
+    "days_until_deadline": -46
+  },
+  {
+    "id": "isc-2026",
+    "title": "ISC 2026 - Information Security Conference",
+    "venue_type": "conference",
+    "rank": "A",
+    "area": [
+      "SEC"
+    ],
+    "topics": [
+      "information security",
+      "cryptography",
+      "network security",
+      "system security"
+    ],
+    "deadline": "2026-05-15",
+    "status": "closed",
+    "official_url": "https://isc2026.org/",
+    "source_url": "https://isc2026.org/",
+    "last_checked": "2026-03-29",
+    "notes": "International conference on information security",
+    "location": "Hong Kong",
+    "acceptance_rate": 22,
+    "priority_score": 95,
+    "days_until_deadline": -1
   },
   {
     "id": "wisec-2026",
@@ -1210,7 +1234,7 @@
     "location": "Seoul, South Korea",
     "acceptance_rate": 22,
     "priority_score": 95,
-    "days_until_deadline": -75
+    "days_until_deadline": -76
   },
   {
     "id": "sacmat-2026",
@@ -1235,7 +1259,7 @@
     "location": "Washington, DC, USA",
     "acceptance_rate": 22,
     "priority_score": 95,
-    "days_until_deadline": -44
+    "days_until_deadline": -45
   },
   {
     "id": "cns-2026",
@@ -1260,7 +1284,7 @@
     "location": "Boston, MA, USA",
     "acceptance_rate": 22,
     "priority_score": 95,
-    "days_until_deadline": -30
+    "days_until_deadline": -31
   },
   {
     "id": "securecomm-2026",
@@ -1285,7 +1309,7 @@
     "location": "Singapore",
     "acceptance_rate": 22,
     "priority_score": 95,
-    "days_until_deadline": 46
+    "days_until_deadline": 45
   },
   {
     "id": "trustcom-2026",
@@ -1310,7 +1334,7 @@
     "location": "Dubai, UAE",
     "acceptance_rate": 22,
     "priority_score": 95,
-    "days_until_deadline": 47
+    "days_until_deadline": 46
   },
   {
     "id": "secrypt-2026",
@@ -1336,31 +1360,7 @@
     "location": "Porto, Portugal",
     "acceptance_rate": 28,
     "priority_score": 90,
-    "days_until_deadline": -25
-  },
-  {
-    "id": "dsrt-2026",
-    "title": "DS-RT 2026 - IEEE/ACM International Symposium on Distributed Simulation and Real Time Applications",
-    "venue_type": "conference",
-    "rank": "B",
-    "area": [
-      "SEC"
-    ],
-    "topics": [
-      "distributed systems",
-      "security",
-      "real-time systems"
-    ],
-    "deadline": "2026-07-15",
-    "status": "open",
-    "official_url": "https://ds-rt.com/2026/",
-    "source_url": "https://ds-rt.com/2026/",
-    "last_checked": "2026-03-29",
-    "notes": "Focus on distributed simulation and real-time applications with security aspects",
-    "location": "London, UK",
-    "acceptance_rate": 28,
-    "priority_score": 85,
-    "days_until_deadline": 61
+    "days_until_deadline": -26
   },
   {
     "id": "milcom-2026",
@@ -1386,6 +1386,6 @@
     "location": "Washington, DC, USA",
     "acceptance_rate": 30,
     "priority_score": 75,
-    "days_until_deadline": 31
+    "days_until_deadline": 30
   }
 ]
