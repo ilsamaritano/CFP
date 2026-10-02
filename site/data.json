@@ -23,7 +23,7 @@
     "location": "Santa Barbara, CA, USA",
     "acceptance_rate": 15,
     "priority_score": 150,
-    "days_until_deadline": -228
+    "days_until_deadline": -229
   },
   {
     "id": "ccs-2026",
@@ -49,7 +49,7 @@
     "location": "The Hague, Netherlands",
     "acceptance_rate": 15,
     "priority_score": 140,
-    "days_until_deadline": -155
+    "days_until_deadline": -156
   },
   {
     "id": "eurocrypt-2026",
@@ -74,7 +74,7 @@
     "location": "Vienna, Austria",
     "acceptance_rate": 15,
     "priority_score": 140,
-    "days_until_deadline": 14
+    "days_until_deadline": 13
   },
   {
     "id": "tcc-2026",
@@ -99,7 +99,33 @@
     "location": "To be announced",
     "acceptance_rate": 15,
     "priority_score": 140,
-    "days_until_deadline": 91
+    "days_until_deadline": 90
+  },
+  {
+    "id": "tdsc-2026",
+    "title": "IEEE TDSC - Transactions on Dependable and Secure Computing",
+    "venue_type": "journal",
+    "rank": "Q1",
+    "area": [
+      "SEC",
+      "MPC"
+    ],
+    "topics": [
+      "secure computation",
+      "privacy",
+      "cryptographic protocols",
+      "security"
+    ],
+    "deadline": "2026-12-31",
+    "status": "open",
+    "official_url": "https://www.computer.org/csdl/journal/tq",
+    "source_url": "https://www.computer.org/csdl/journal/tq",
+    "last_checked": "2026-03-28",
+    "notes": "Rolling submissions accepted throughout the year",
+    "location": "Online",
+    "acceptance_rate": 25,
+    "priority_score": 140,
+    "days_until_deadline": 90
   },
   {
     "id": "ches-2026",
@@ -125,7 +151,33 @@
     "location": "Taipei, Taiwan",
     "acceptance_rate": 15,
     "priority_score": 140,
-    "days_until_deadline": -78
+    "days_until_deadline": -79
+  },
+  {
+    "id": "ieeetcc-2026",
+    "title": "IEEE Transactions on Cloud Computing",
+    "venue_type": "journal",
+    "rank": "Q1",
+    "area": [
+      "SEC",
+      "MPC"
+    ],
+    "topics": [
+      "cloud security",
+      "secure computation",
+      "privacy",
+      "distributed security"
+    ],
+    "deadline": "2026-12-31",
+    "status": "open",
+    "official_url": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6245519",
+    "source_url": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6245519",
+    "last_checked": "2026-03-28",
+    "notes": "IEEE journal for cloud computing and security research, rolling submissions",
+    "location": "Online",
+    "acceptance_rate": 25,
+    "priority_score": 140,
+    "days_until_deadline": 90
   },
   {
     "id": "joc-si-mpc-2026",
@@ -149,7 +201,7 @@
     "location": "Online",
     "acceptance_rate": 25,
     "priority_score": 135,
-    "days_until_deadline": -62
+    "days_until_deadline": -63
   },
   {
     "id": "sp-2026",
@@ -175,33 +227,7 @@
     "location": "San Francisco, CA, USA",
     "acceptance_rate": 15,
     "priority_score": 130,
-    "days_until_deadline": -122
-  },
-  {
-    "id": "tdsc-2026",
-    "title": "IEEE TDSC - Transactions on Dependable and Secure Computing",
-    "venue_type": "journal",
-    "rank": "Q1",
-    "area": [
-      "SEC",
-      "MPC"
-    ],
-    "topics": [
-      "secure computation",
-      "privacy",
-      "cryptographic protocols",
-      "security"
-    ],
-    "deadline": "2026-12-31",
-    "status": "open",
-    "official_url": "https://www.computer.org/csdl/journal/tq",
-    "source_url": "https://www.computer.org/csdl/journal/tq",
-    "last_checked": "2026-03-28",
-    "notes": "Rolling submissions accepted throughout the year",
-    "location": "Online",
-    "acceptance_rate": 25,
-    "priority_score": 130,
-    "days_until_deadline": 91
+    "days_until_deadline": -123
   },
   {
     "id": "usenix-security-2026",
@@ -227,11 +253,11 @@
     "location": "Vancouver, BC, Canada",
     "acceptance_rate": 15,
     "priority_score": 130,
-    "days_until_deadline": -134
+    "days_until_deadline": -135
   },
   {
-    "id": "ieeetcc-2026",
-    "title": "IEEE Transactions on Cloud Computing",
+    "id": "tifs-2026",
+    "title": "IEEE Transactions on Information Forensics and Security",
     "venue_type": "journal",
     "rank": "Q1",
     "area": [
@@ -239,21 +265,125 @@
       "MPC"
     ],
     "topics": [
-      "cloud security",
-      "secure computation",
-      "privacy",
-      "distributed security"
+      "information forensics",
+      "security",
+      "cryptography",
+      "privacy"
     ],
     "deadline": "2026-12-31",
     "status": "open",
-    "official_url": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6245519",
-    "source_url": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6245519",
+    "official_url": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=10206",
+    "source_url": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=10206",
     "last_checked": "2026-03-28",
-    "notes": "IEEE journal for cloud computing and security research, rolling submissions",
+    "notes": "Top IEEE journal for information forensics and security research, rolling submissions",
     "location": "Online",
     "acceptance_rate": 25,
     "priority_score": 130,
-    "days_until_deadline": 91
+    "days_until_deadline": 90
+  },
+  {
+    "id": "dcc-2026",
+    "title": "Designs, Codes and Cryptography",
+    "venue_type": "journal",
+    "rank": "Q1",
+    "area": [
+      "MPC",
+      "SEC"
+    ],
+    "topics": [
+      "cryptography",
+      "coding theory",
+      "cryptographic protocols",
+      "theoretical cryptography"
+    ],
+    "deadline": "2026-12-31",
+    "status": "open",
+    "official_url": "https://www.springer.com/journal/10623",
+    "source_url": "https://www.springer.com/journal/10623",
+    "last_checked": "2026-03-28",
+    "notes": "Premier journal for theoretical cryptography and coding theory, rolling submissions",
+    "location": "Online",
+    "acceptance_rate": 25,
+    "priority_score": 130,
+    "days_until_deadline": 90
+  },
+  {
+    "id": "tops-2026",
+    "title": "ACM Transactions on Privacy and Security",
+    "venue_type": "journal",
+    "rank": "Q1",
+    "area": [
+      "SEC",
+      "MPC"
+    ],
+    "topics": [
+      "privacy",
+      "security",
+      "privacy-preserving computation",
+      "cryptography"
+    ],
+    "deadline": "2026-12-31",
+    "status": "open",
+    "official_url": "https://dl.acm.org/journal/tops",
+    "source_url": "https://dl.acm.org/journal/tops",
+    "last_checked": "2026-03-28",
+    "notes": "Premier ACM journal for privacy and security research, rolling submissions",
+    "location": "Online",
+    "acceptance_rate": 25,
+    "priority_score": 130,
+    "days_until_deadline": 90
+  },
+  {
+    "id": "csur-2026",
+    "title": "ACM Computing Surveys",
+    "venue_type": "journal",
+    "rank": "Q1",
+    "area": [
+      "SEC",
+      "MPC"
+    ],
+    "topics": [
+      "security",
+      "cryptography",
+      "privacy",
+      "survey papers"
+    ],
+    "deadline": "2026-12-31",
+    "status": "open",
+    "official_url": "https://dl.acm.org/journal/csur",
+    "source_url": "https://dl.acm.org/journal/csur",
+    "last_checked": "2026-03-28",
+    "notes": "Top ACM journal for comprehensive survey papers in computing, including security topics",
+    "location": "Online",
+    "acceptance_rate": 25,
+    "priority_score": 130,
+    "days_until_deadline": 90
+  },
+  {
+    "id": "ins-2026",
+    "title": "Elsevier Information Sciences",
+    "venue_type": "journal",
+    "rank": "Q1",
+    "area": [
+      "SEC",
+      "MPC"
+    ],
+    "topics": [
+      "information security",
+      "cryptography",
+      "data security",
+      "privacy"
+    ],
+    "deadline": "2026-12-31",
+    "status": "open",
+    "official_url": "https://www.journals.elsevier.com/information-sciences",
+    "source_url": "https://www.journals.elsevier.com/information-sciences",
+    "last_checked": "2026-03-28",
+    "notes": "Top Elsevier journal covering information sciences and security, rolling submissions",
+    "location": "Online",
+    "acceptance_rate": 25,
+    "priority_score": 130,
+    "days_until_deadline": 90
   },
   {
     "id": "fc-2026",
@@ -278,7 +408,7 @@
     "location": "Curaçao",
     "acceptance_rate": 22,
     "priority_score": 120,
-    "days_until_deadline": -16
+    "days_until_deadline": -17
   },
   {
     "id": "asiacrypt-2026",
@@ -304,111 +434,7 @@
     "location": "Tokyo, Japan",
     "acceptance_rate": 22,
     "priority_score": 120,
-    "days_until_deadline": -93
-  },
-  {
-    "id": "tifs-2026",
-    "title": "IEEE Transactions on Information Forensics and Security",
-    "venue_type": "journal",
-    "rank": "Q1",
-    "area": [
-      "SEC",
-      "MPC"
-    ],
-    "topics": [
-      "information forensics",
-      "security",
-      "cryptography",
-      "privacy"
-    ],
-    "deadline": "2026-12-31",
-    "status": "open",
-    "official_url": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=10206",
-    "source_url": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=10206",
-    "last_checked": "2026-03-28",
-    "notes": "Top IEEE journal for information forensics and security research, rolling submissions",
-    "location": "Online",
-    "acceptance_rate": 25,
-    "priority_score": 120,
-    "days_until_deadline": 91
-  },
-  {
-    "id": "dcc-2026",
-    "title": "Designs, Codes and Cryptography",
-    "venue_type": "journal",
-    "rank": "Q1",
-    "area": [
-      "MPC",
-      "SEC"
-    ],
-    "topics": [
-      "cryptography",
-      "coding theory",
-      "cryptographic protocols",
-      "theoretical cryptography"
-    ],
-    "deadline": "2026-12-31",
-    "status": "open",
-    "official_url": "https://www.springer.com/journal/10623",
-    "source_url": "https://www.springer.com/journal/10623",
-    "last_checked": "2026-03-28",
-    "notes": "Premier journal for theoretical cryptography and coding theory, rolling submissions",
-    "location": "Online",
-    "acceptance_rate": 25,
-    "priority_score": 120,
-    "days_until_deadline": 91
-  },
-  {
-    "id": "tops-2026",
-    "title": "ACM Transactions on Privacy and Security",
-    "venue_type": "journal",
-    "rank": "Q1",
-    "area": [
-      "SEC",
-      "MPC"
-    ],
-    "topics": [
-      "privacy",
-      "security",
-      "privacy-preserving computation",
-      "cryptography"
-    ],
-    "deadline": "2026-12-31",
-    "status": "open",
-    "official_url": "https://dl.acm.org/journal/tops",
-    "source_url": "https://dl.acm.org/journal/tops",
-    "last_checked": "2026-03-28",
-    "notes": "Premier ACM journal for privacy and security research, rolling submissions",
-    "location": "Online",
-    "acceptance_rate": 25,
-    "priority_score": 120,
-    "days_until_deadline": 91
-  },
-  {
-    "id": "csur-2026",
-    "title": "ACM Computing Surveys",
-    "venue_type": "journal",
-    "rank": "Q1",
-    "area": [
-      "SEC",
-      "MPC"
-    ],
-    "topics": [
-      "security",
-      "cryptography",
-      "privacy",
-      "survey papers"
-    ],
-    "deadline": "2026-12-31",
-    "status": "open",
-    "official_url": "https://dl.acm.org/journal/csur",
-    "source_url": "https://dl.acm.org/journal/csur",
-    "last_checked": "2026-03-28",
-    "notes": "Top ACM journal for comprehensive survey papers in computing, including security topics",
-    "location": "Online",
-    "acceptance_rate": 25,
-    "priority_score": 120,
-    "days_until_deadline": 91
+    "days_until_deadline": -94
   },
   {
     "id": "tifs-si-pqc-2026",
@@ -433,33 +459,7 @@
     "location": "Online",
     "acceptance_rate": 25,
     "priority_score": 120,
-    "days_until_deadline": -1
-  },
-  {
-    "id": "ins-2026",
-    "title": "Elsevier Information Sciences",
-    "venue_type": "journal",
-    "rank": "Q1",
-    "area": [
-      "SEC",
-      "MPC"
-    ],
-    "topics": [
-      "information security",
-      "cryptography",
-      "data security",
-      "privacy"
-    ],
-    "deadline": "2026-12-31",
-    "status": "open",
-    "official_url": "https://www.journals.elsevier.com/information-sciences",
-    "source_url": "https://www.journals.elsevier.com/information-sciences",
-    "last_checked": "2026-03-28",
-    "notes": "Top Elsevier journal covering information sciences and security, rolling submissions",
-    "location": "Online",
-    "acceptance_rate": 25,
-    "priority_score": 120,
-    "days_until_deadline": 91
+    "days_until_deadline": -2
   },
   {
     "id": "mobicom-2026",
@@ -484,7 +484,7 @@
     "location": "Sydney, Australia",
     "acceptance_rate": 15,
     "priority_score": 115,
-    "days_until_deadline": -47
+    "days_until_deadline": -48
   },
   {
     "id": "infocom-2027",
@@ -509,7 +509,7 @@
     "location": "Honolulu, Hawaii, USA",
     "acceptance_rate": null,
     "priority_score": 115,
-    "days_until_deadline": -68
+    "days_until_deadline": -69
   },
   {
     "id": "ndss-2027",
@@ -534,7 +534,327 @@
     "location": "San Diego, CA, USA",
     "acceptance_rate": 15,
     "priority_score": 115,
-    "days_until_deadline": -108
+    "days_until_deadline": -109
+  },
+  {
+    "id": "compsec-2026",
+    "title": "Computers & Security",
+    "venue_type": "journal",
+    "rank": "Q1",
+    "area": [
+      "SEC"
+    ],
+    "topics": [
+      "computer security",
+      "network security",
+      "cybersecurity",
+      "applied security"
+    ],
+    "deadline": "2026-12-31",
+    "status": "open",
+    "official_url": "https://www.journals.elsevier.com/computers-and-security",
+    "source_url": "https://www.journals.elsevier.com/computers-and-security",
+    "last_checked": "2026-03-28",
+    "notes": "Leading Elsevier journal for computer security research, rolling submissions",
+    "location": "Online",
+    "acceptance_rate": 25,
+    "priority_score": 115,
+    "days_until_deadline": 90
+  },
+  {
+    "id": "ieeesp-mag-2026",
+    "title": "IEEE Security & Privacy Magazine",
+    "venue_type": "journal",
+    "rank": "Q1",
+    "area": [
+      "SEC"
+    ],
+    "topics": [
+      "security",
+      "privacy",
+      "applied security",
+      "security trends"
+    ],
+    "deadline": "2026-12-31",
+    "status": "open",
+    "official_url": "https://www.computer.org/csdl/magazine/sp",
+    "source_url": "https://www.computer.org/csdl/magazine/sp",
+    "last_checked": "2026-03-28",
+    "notes": "Premier IEEE magazine for security and privacy topics, rolling submissions",
+    "location": "Online",
+    "acceptance_rate": 25,
+    "priority_score": 115,
+    "days_until_deadline": 90
+  },
+  {
+    "id": "tnse-2026",
+    "title": "IEEE Transactions on Network Science and Engineering",
+    "venue_type": "journal",
+    "rank": "Q1",
+    "area": [
+      "SEC"
+    ],
+    "topics": [
+      "network security",
+      "network science",
+      "distributed systems",
+      "security"
+    ],
+    "deadline": "2026-12-31",
+    "status": "open",
+    "official_url": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6488902",
+    "source_url": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6488902",
+    "last_checked": "2026-03-28",
+    "notes": "IEEE journal covering network science and security, rolling submissions",
+    "location": "Online",
+    "acceptance_rate": 25,
+    "priority_score": 115,
+    "days_until_deadline": 90
+  },
+  {
+    "id": "comst-2026",
+    "title": "IEEE Communications Surveys and Tutorials",
+    "venue_type": "journal",
+    "rank": "Q1",
+    "area": [
+      "SEC"
+    ],
+    "topics": [
+      "communications security",
+      "network security",
+      "survey papers",
+      "security tutorials"
+    ],
+    "deadline": "2026-12-31",
+    "status": "open",
+    "official_url": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=9739",
+    "source_url": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=9739",
+    "last_checked": "2026-03-28",
+    "notes": "Top IEEE journal for communications and security surveys, rolling submissions",
+    "location": "Online",
+    "acceptance_rate": 25,
+    "priority_score": 115,
+    "days_until_deadline": 90
+  },
+  {
+    "id": "tcps-2026",
+    "title": "ACM Transactions on Cyber-Physical Systems",
+    "venue_type": "journal",
+    "rank": "Q1",
+    "area": [
+      "SEC"
+    ],
+    "topics": [
+      "cyber-physical security",
+      "IoT security",
+      "embedded systems security"
+    ],
+    "deadline": "2026-12-31",
+    "status": "open",
+    "official_url": "https://dl.acm.org/journal/tcps",
+    "source_url": "https://dl.acm.org/journal/tcps",
+    "last_checked": "2026-03-28",
+    "notes": "ACM journal for cyber-physical systems and security, rolling submissions",
+    "location": "Online",
+    "acceptance_rate": 25,
+    "priority_score": 115,
+    "days_until_deadline": 90
+  },
+  {
+    "id": "iotj-2026",
+    "title": "IEEE Internet of Things Journal",
+    "venue_type": "journal",
+    "rank": "Q1",
+    "area": [
+      "SEC"
+    ],
+    "topics": [
+      "IoT security",
+      "embedded security",
+      "network security",
+      "privacy"
+    ],
+    "deadline": "2026-12-31",
+    "status": "open",
+    "official_url": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6488907",
+    "source_url": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6488907",
+    "last_checked": "2026-03-28",
+    "notes": "Leading IEEE journal for IoT and security research, rolling submissions",
+    "location": "Online",
+    "acceptance_rate": 25,
+    "priority_score": 115,
+    "days_until_deadline": 90
+  },
+  {
+    "id": "fgcs-2026",
+    "title": "Elsevier Future Generation Computer Systems",
+    "venue_type": "journal",
+    "rank": "Q1",
+    "area": [
+      "SEC"
+    ],
+    "topics": [
+      "cloud security",
+      "distributed systems security",
+      "network security"
+    ],
+    "deadline": "2026-12-31",
+    "status": "open",
+    "official_url": "https://www.journals.elsevier.com/future-generation-computer-systems",
+    "source_url": "https://www.journals.elsevier.com/future-generation-computer-systems",
+    "last_checked": "2026-03-28",
+    "notes": "Leading Elsevier journal for future computing systems and security, rolling submissions",
+    "location": "Online",
+    "acceptance_rate": 25,
+    "priority_score": 115,
+    "days_until_deadline": 90
+  },
+  {
+    "id": "jisa-2026",
+    "title": "Elsevier Journal of Information Security and Applications",
+    "venue_type": "journal",
+    "rank": "Q1",
+    "area": [
+      "SEC"
+    ],
+    "topics": [
+      "information security",
+      "security applications",
+      "applied security",
+      "cybersecurity"
+    ],
+    "deadline": "2026-12-31",
+    "status": "open",
+    "official_url": "https://www.journals.elsevier.com/journal-of-information-security-and-applications",
+    "source_url": "https://www.journals.elsevier.com/journal-of-information-security-and-applications",
+    "last_checked": "2026-03-28",
+    "notes": "Elsevier journal focused on practical information security, rolling submissions",
+    "location": "Online",
+    "acceptance_rate": 25,
+    "priority_score": 115,
+    "days_until_deadline": 90
+  },
+  {
+    "id": "comnet-2026",
+    "title": "Elsevier Computer Networks",
+    "venue_type": "journal",
+    "rank": "Q1",
+    "area": [
+      "SEC"
+    ],
+    "topics": [
+      "network security",
+      "communications security",
+      "protocol security"
+    ],
+    "deadline": "2026-12-31",
+    "status": "open",
+    "official_url": "https://www.journals.elsevier.com/computer-networks",
+    "source_url": "https://www.journals.elsevier.com/computer-networks",
+    "last_checked": "2026-03-28",
+    "notes": "Top Elsevier journal for computer networks and security, rolling submissions",
+    "location": "Online",
+    "acceptance_rate": 25,
+    "priority_score": 115,
+    "days_until_deadline": 90
+  },
+  {
+    "id": "tmc-2026",
+    "title": "IEEE Transactions on Mobile Computing",
+    "venue_type": "journal",
+    "rank": "Q1",
+    "area": [
+      "SEC"
+    ],
+    "topics": [
+      "mobile security",
+      "wireless security",
+      "mobile computing",
+      "privacy"
+    ],
+    "deadline": "2026-12-31",
+    "status": "open",
+    "official_url": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7755",
+    "source_url": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7755",
+    "last_checked": "2026-03-28",
+    "notes": "Premier IEEE journal for mobile computing and security, rolling submissions",
+    "location": "Online",
+    "acceptance_rate": 25,
+    "priority_score": 115,
+    "days_until_deadline": 90
+  },
+  {
+    "id": "tosn-2026",
+    "title": "ACM Transactions on Sensor Networks",
+    "venue_type": "journal",
+    "rank": "Q1",
+    "area": [
+      "SEC"
+    ],
+    "topics": [
+      "sensor network security",
+      "IoT security",
+      "wireless security",
+      "privacy"
+    ],
+    "deadline": "2026-12-31",
+    "status": "open",
+    "official_url": "https://dl.acm.org/journal/tosn",
+    "source_url": "https://dl.acm.org/journal/tosn",
+    "last_checked": "2026-03-28",
+    "notes": "ACM journal for sensor networks and security research, rolling submissions",
+    "location": "Online",
+    "acceptance_rate": 25,
+    "priority_score": 115,
+    "days_until_deadline": 90
+  },
+  {
+    "id": "adhoc-2026",
+    "title": "Elsevier Ad Hoc Networks",
+    "venue_type": "journal",
+    "rank": "Q1",
+    "area": [
+      "SEC"
+    ],
+    "topics": [
+      "ad hoc network security",
+      "wireless security",
+      "mobile security"
+    ],
+    "deadline": "2026-12-31",
+    "status": "open",
+    "official_url": "https://www.journals.elsevier.com/ad-hoc-networks",
+    "source_url": "https://www.journals.elsevier.com/ad-hoc-networks",
+    "last_checked": "2026-03-28",
+    "notes": "Elsevier journal for ad hoc and sensor network security, rolling submissions",
+    "location": "Online",
+    "acceptance_rate": 25,
+    "priority_score": 115,
+    "days_until_deadline": 90
+  },
+  {
+    "id": "ieeecomm-2026",
+    "title": "IEEE Wireless Communications",
+    "venue_type": "journal",
+    "rank": "Q1",
+    "area": [
+      "SEC"
+    ],
+    "topics": [
+      "wireless security",
+      "communications security",
+      "mobile security"
+    ],
+    "deadline": "2026-12-31",
+    "status": "open",
+    "official_url": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7742",
+    "source_url": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7742",
+    "last_checked": "2026-03-28",
+    "notes": "IEEE magazine for wireless communications and security, rolling submissions",
+    "location": "Online",
+    "acceptance_rate": 25,
+    "priority_score": 115,
+    "days_until_deadline": 90
   },
   {
     "id": "iros-2026",
@@ -560,7 +880,7 @@
     "location": "Abu Dhabi, UAE",
     "acceptance_rate": 45,
     "priority_score": 115,
-    "days_until_deadline": -200
+    "days_until_deadline": -201
   },
   {
     "id": "icra-2026",
@@ -586,7 +906,7 @@
     "location": "Philadelphia, PA, USA",
     "acceptance_rate": 42,
     "priority_score": 115,
-    "days_until_deadline": -381
+    "days_until_deadline": -382
   },
   {
     "id": "esorics-2026",
@@ -612,7 +932,7 @@
     "location": "Rome, Italy",
     "acceptance_rate": 22,
     "priority_score": 110,
-    "days_until_deadline": -163
+    "days_until_deadline": -164
   },
   {
     "id": "pkc-2027",
@@ -637,7 +957,7 @@
     "location": "Amsterdam, Netherlands",
     "acceptance_rate": 22,
     "priority_score": 110,
-    "days_until_deadline": 14
+    "days_until_deadline": 13
   },
   {
     "id": "ctrsa-2027",
@@ -662,7 +982,7 @@
     "location": "San Francisco, CA, USA",
     "acceptance_rate": 22,
     "priority_score": 110,
-    "days_until_deadline": -16
+    "days_until_deadline": -17
   },
   {
     "id": "csf-2026",
@@ -688,7 +1008,7 @@
     "location": "Pittsburgh, PA, USA",
     "acceptance_rate": 22,
     "priority_score": 110,
-    "days_until_deadline": -153
+    "days_until_deadline": -154
   },
   {
     "id": "pets-2026-4",
@@ -714,7 +1034,7 @@
     "location": "Zurich, Switzerland",
     "acceptance_rate": 22,
     "priority_score": 110,
-    "days_until_deadline": -31
+    "days_until_deadline": -32
   },
   {
     "id": "acisp-2026",
@@ -740,327 +1060,7 @@
     "location": "Melbourne, Australia",
     "acceptance_rate": 22,
     "priority_score": 110,
-    "days_until_deadline": -195
-  },
-  {
-    "id": "compsec-2026",
-    "title": "Computers & Security",
-    "venue_type": "journal",
-    "rank": "Q1",
-    "area": [
-      "SEC"
-    ],
-    "topics": [
-      "computer security",
-      "network security",
-      "cybersecurity",
-      "applied security"
-    ],
-    "deadline": "2026-12-31",
-    "status": "open",
-    "official_url": "https://www.journals.elsevier.com/computers-and-security",
-    "source_url": "https://www.journals.elsevier.com/computers-and-security",
-    "last_checked": "2026-03-28",
-    "notes": "Leading Elsevier journal for computer security research, rolling submissions",
-    "location": "Online",
-    "acceptance_rate": 25,
-    "priority_score": 105,
-    "days_until_deadline": 91
-  },
-  {
-    "id": "ieeesp-mag-2026",
-    "title": "IEEE Security & Privacy Magazine",
-    "venue_type": "journal",
-    "rank": "Q1",
-    "area": [
-      "SEC"
-    ],
-    "topics": [
-      "security",
-      "privacy",
-      "applied security",
-      "security trends"
-    ],
-    "deadline": "2026-12-31",
-    "status": "open",
-    "official_url": "https://www.computer.org/csdl/magazine/sp",
-    "source_url": "https://www.computer.org/csdl/magazine/sp",
-    "last_checked": "2026-03-28",
-    "notes": "Premier IEEE magazine for security and privacy topics, rolling submissions",
-    "location": "Online",
-    "acceptance_rate": 25,
-    "priority_score": 105,
-    "days_until_deadline": 91
-  },
-  {
-    "id": "tnse-2026",
-    "title": "IEEE Transactions on Network Science and Engineering",
-    "venue_type": "journal",
-    "rank": "Q1",
-    "area": [
-      "SEC"
-    ],
-    "topics": [
-      "network security",
-      "network science",
-      "distributed systems",
-      "security"
-    ],
-    "deadline": "2026-12-31",
-    "status": "open",
-    "official_url": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6488902",
-    "source_url": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6488902",
-    "last_checked": "2026-03-28",
-    "notes": "IEEE journal covering network science and security, rolling submissions",
-    "location": "Online",
-    "acceptance_rate": 25,
-    "priority_score": 105,
-    "days_until_deadline": 91
-  },
-  {
-    "id": "comst-2026",
-    "title": "IEEE Communications Surveys and Tutorials",
-    "venue_type": "journal",
-    "rank": "Q1",
-    "area": [
-      "SEC"
-    ],
-    "topics": [
-      "communications security",
-      "network security",
-      "survey papers",
-      "security tutorials"
-    ],
-    "deadline": "2026-12-31",
-    "status": "open",
-    "official_url": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=9739",
-    "source_url": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=9739",
-    "last_checked": "2026-03-28",
-    "notes": "Top IEEE journal for communications and security surveys, rolling submissions",
-    "location": "Online",
-    "acceptance_rate": 25,
-    "priority_score": 105,
-    "days_until_deadline": 91
-  },
-  {
-    "id": "tcps-2026",
-    "title": "ACM Transactions on Cyber-Physical Systems",
-    "venue_type": "journal",
-    "rank": "Q1",
-    "area": [
-      "SEC"
-    ],
-    "topics": [
-      "cyber-physical security",
-      "IoT security",
-      "embedded systems security"
-    ],
-    "deadline": "2026-12-31",
-    "status": "open",
-    "official_url": "https://dl.acm.org/journal/tcps",
-    "source_url": "https://dl.acm.org/journal/tcps",
-    "last_checked": "2026-03-28",
-    "notes": "ACM journal for cyber-physical systems and security, rolling submissions",
-    "location": "Online",
-    "acceptance_rate": 25,
-    "priority_score": 105,
-    "days_until_deadline": 91
-  },
-  {
-    "id": "iotj-2026",
-    "title": "IEEE Internet of Things Journal",
-    "venue_type": "journal",
-    "rank": "Q1",
-    "area": [
-      "SEC"
-    ],
-    "topics": [
-      "IoT security",
-      "embedded security",
-      "network security",
-      "privacy"
-    ],
-    "deadline": "2026-12-31",
-    "status": "open",
-    "official_url": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6488907",
-    "source_url": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6488907",
-    "last_checked": "2026-03-28",
-    "notes": "Leading IEEE journal for IoT and security research, rolling submissions",
-    "location": "Online",
-    "acceptance_rate": 25,
-    "priority_score": 105,
-    "days_until_deadline": 91
-  },
-  {
-    "id": "fgcs-2026",
-    "title": "Elsevier Future Generation Computer Systems",
-    "venue_type": "journal",
-    "rank": "Q1",
-    "area": [
-      "SEC"
-    ],
-    "topics": [
-      "cloud security",
-      "distributed systems security",
-      "network security"
-    ],
-    "deadline": "2026-12-31",
-    "status": "open",
-    "official_url": "https://www.journals.elsevier.com/future-generation-computer-systems",
-    "source_url": "https://www.journals.elsevier.com/future-generation-computer-systems",
-    "last_checked": "2026-03-28",
-    "notes": "Leading Elsevier journal for future computing systems and security, rolling submissions",
-    "location": "Online",
-    "acceptance_rate": 25,
-    "priority_score": 105,
-    "days_until_deadline": 91
-  },
-  {
-    "id": "jisa-2026",
-    "title": "Elsevier Journal of Information Security and Applications",
-    "venue_type": "journal",
-    "rank": "Q1",
-    "area": [
-      "SEC"
-    ],
-    "topics": [
-      "information security",
-      "security applications",
-      "applied security",
-      "cybersecurity"
-    ],
-    "deadline": "2026-12-31",
-    "status": "open",
-    "official_url": "https://www.journals.elsevier.com/journal-of-information-security-and-applications",
-    "source_url": "https://www.journals.elsevier.com/journal-of-information-security-and-applications",
-    "last_checked": "2026-03-28",
-    "notes": "Elsevier journal focused on practical information security, rolling submissions",
-    "location": "Online",
-    "acceptance_rate": 25,
-    "priority_score": 105,
-    "days_until_deadline": 91
-  },
-  {
-    "id": "comnet-2026",
-    "title": "Elsevier Computer Networks",
-    "venue_type": "journal",
-    "rank": "Q1",
-    "area": [
-      "SEC"
-    ],
-    "topics": [
-      "network security",
-      "communications security",
-      "protocol security"
-    ],
-    "deadline": "2026-12-31",
-    "status": "open",
-    "official_url": "https://www.journals.elsevier.com/computer-networks",
-    "source_url": "https://www.journals.elsevier.com/computer-networks",
-    "last_checked": "2026-03-28",
-    "notes": "Top Elsevier journal for computer networks and security, rolling submissions",
-    "location": "Online",
-    "acceptance_rate": 25,
-    "priority_score": 105,
-    "days_until_deadline": 91
-  },
-  {
-    "id": "tmc-2026",
-    "title": "IEEE Transactions on Mobile Computing",
-    "venue_type": "journal",
-    "rank": "Q1",
-    "area": [
-      "SEC"
-    ],
-    "topics": [
-      "mobile security",
-      "wireless security",
-      "mobile computing",
-      "privacy"
-    ],
-    "deadline": "2026-12-31",
-    "status": "open",
-    "official_url": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7755",
-    "source_url": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7755",
-    "last_checked": "2026-03-28",
-    "notes": "Premier IEEE journal for mobile computing and security, rolling submissions",
-    "location": "Online",
-    "acceptance_rate": 25,
-    "priority_score": 105,
-    "days_until_deadline": 91
-  },
-  {
-    "id": "tosn-2026",
-    "title": "ACM Transactions on Sensor Networks",
-    "venue_type": "journal",
-    "rank": "Q1",
-    "area": [
-      "SEC"
-    ],
-    "topics": [
-      "sensor network security",
-      "IoT security",
-      "wireless security",
-      "privacy"
-    ],
-    "deadline": "2026-12-31",
-    "status": "open",
-    "official_url": "https://dl.acm.org/journal/tosn",
-    "source_url": "https://dl.acm.org/journal/tosn",
-    "last_checked": "2026-03-28",
-    "notes": "ACM journal for sensor networks and security research, rolling submissions",
-    "location": "Online",
-    "acceptance_rate": 25,
-    "priority_score": 105,
-    "days_until_deadline": 91
-  },
-  {
-    "id": "adhoc-2026",
-    "title": "Elsevier Ad Hoc Networks",
-    "venue_type": "journal",
-    "rank": "Q1",
-    "area": [
-      "SEC"
-    ],
-    "topics": [
-      "ad hoc network security",
-      "wireless security",
-      "mobile security"
-    ],
-    "deadline": "2026-12-31",
-    "status": "open",
-    "official_url": "https://www.journals.elsevier.com/ad-hoc-networks",
-    "source_url": "https://www.journals.elsevier.com/ad-hoc-networks",
-    "last_checked": "2026-03-28",
-    "notes": "Elsevier journal for ad hoc and sensor network security, rolling submissions",
-    "location": "Online",
-    "acceptance_rate": 25,
-    "priority_score": 105,
-    "days_until_deadline": 91
-  },
-  {
-    "id": "ieeecomm-2026",
-    "title": "IEEE Wireless Communications",
-    "venue_type": "journal",
-    "rank": "Q1",
-    "area": [
-      "SEC"
-    ],
-    "topics": [
-      "wireless security",
-      "communications security",
-      "mobile security"
-    ],
-    "deadline": "2026-12-31",
-    "status": "open",
-    "official_url": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7742",
-    "source_url": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7742",
-    "last_checked": "2026-03-28",
-    "notes": "IEEE magazine for wireless communications and security, rolling submissions",
-    "location": "Online",
-    "acceptance_rate": 25,
-    "priority_score": 105,
-    "days_until_deadline": 91
+    "days_until_deadline": -196
   },
   {
     "id": "acsac-2026",
@@ -1085,7 +1085,7 @@
     "location": "Austin, TX, USA",
     "acceptance_rate": 22,
     "priority_score": 95,
-    "days_until_deadline": -122
+    "days_until_deadline": -123
   },
   {
     "id": "raid-2026",
@@ -1110,7 +1110,7 @@
     "location": "Paris, France",
     "acceptance_rate": 22,
     "priority_score": 95,
-    "days_until_deadline": -154
+    "days_until_deadline": -155
   },
   {
     "id": "soups-2026",
@@ -1135,7 +1135,7 @@
     "location": "Philadelphia, PA, USA",
     "acceptance_rate": 22,
     "priority_score": 95,
-    "days_until_deadline": -200
+    "days_until_deadline": -201
   },
   {
     "id": "dimva-2026",
@@ -1160,7 +1160,7 @@
     "location": "Bonn, Germany",
     "acceptance_rate": 22,
     "priority_score": 95,
-    "days_until_deadline": -184
+    "days_until_deadline": -185
   },
   {
     "id": "isc-2026",
@@ -1185,7 +1185,7 @@
     "location": "Hong Kong",
     "acceptance_rate": 22,
     "priority_score": 95,
-    "days_until_deadline": -139
+    "days_until_deadline": -140
   },
   {
     "id": "wisec-2026",
@@ -1210,7 +1210,7 @@
     "location": "Seoul, South Korea",
     "acceptance_rate": 22,
     "priority_score": 95,
-    "days_until_deadline": -214
+    "days_until_deadline": -215
   },
   {
     "id": "sacmat-2026",
@@ -1235,7 +1235,7 @@
     "location": "Washington, DC, USA",
     "acceptance_rate": 22,
     "priority_score": 95,
-    "days_until_deadline": -183
+    "days_until_deadline": -184
   },
   {
     "id": "cns-2026",
@@ -1260,7 +1260,7 @@
     "location": "Boston, MA, USA",
     "acceptance_rate": 22,
     "priority_score": 95,
-    "days_until_deadline": -169
+    "days_until_deadline": -170
   },
   {
     "id": "securecomm-2026",
@@ -1285,7 +1285,7 @@
     "location": "Singapore",
     "acceptance_rate": 22,
     "priority_score": 95,
-    "days_until_deadline": -93
+    "days_until_deadline": -94
   },
   {
     "id": "trustcom-2026",
@@ -1310,7 +1310,7 @@
     "location": "Dubai, UAE",
     "acceptance_rate": 22,
     "priority_score": 95,
-    "days_until_deadline": -92
+    "days_until_deadline": -93
   },
   {
     "id": "secrypt-2026",
@@ -1336,7 +1336,7 @@
     "location": "Porto, Portugal",
     "acceptance_rate": 28,
     "priority_score": 90,
-    "days_until_deadline": -164
+    "days_until_deadline": -165
   },
   {
     "id": "dsrt-2026",
@@ -1360,7 +1360,7 @@
     "location": "London, UK",
     "acceptance_rate": 28,
     "priority_score": 75,
-    "days_until_deadline": -78
+    "days_until_deadline": -79
   },
   {
     "id": "milcom-2026",
@@ -1386,6 +1386,6 @@
     "location": "Washington, DC, USA",
     "acceptance_rate": 30,
     "priority_score": 75,
-    "days_until_deadline": -108
+    "days_until_deadline": -109
   }
 ]
